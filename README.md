@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# POE2dle
+
+A Wordle-like guessing game for Path of Exile 2 skill gems. Guess the skill gem based on its icon and information!
+
+## ⚠️ Disclaimer
+
+**This project is NOT affiliated with, endorsed by, or associated with Grinding Gear Games (GGG) or Path of Exile 2.** It is an independent fan-made project created for entertainment purposes only. Path of Exile is a trademark of Grinding Gear Games Limited.
+
+## About
+
+POE2dle challenges players to identify Path of Exile 2 skill gems from their icons and information. It's a fun way to test your knowledge of the game's vast skill gem library.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js (v18 or higher)
+- pnpm (or npm/yarn)
+
+### Installation
+
+First, install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, run the development server:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) with your browser to play.
 
-## Learn More
+### Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+- `app/` - Next.js app directory with main pages and layouts
+- `components/` - React components for game UI, search, and modals
+- `data/` - JSON files containing skill gem and item data
+- `public/` - Static assets including game icons
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Next.js** - React framework for production
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first CSS styling
 
-## Deploy on Vercel
+## Development
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The project uses [Next.js](https://nextjs.org) with automatic hot-reload as you edit files.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To build for production:
+
+```bash
+pnpm build
+```
+
+To start the production server:
+
+```bash
+pnpm start
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.

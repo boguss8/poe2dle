@@ -81,7 +81,14 @@ export default function InputField() {
           />
           <button
             type="button"
-            className="bg-blue-500 text-white px-4 py-2 rounded align-center h-10"
+            className="bg-blue-500 text-white px-4 py-2 rounded align-center h-10 active:scale-95"
+            onClick={() => {
+              if (selectedItem) {
+                console.log("Selected item:", selectedItem);
+              } else {
+                console.log("No item selected.");
+              }
+            }}
           >
             Submit
           </button>
