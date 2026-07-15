@@ -1,3 +1,10 @@
+## Curernt
+
+- [ ] filtrowanie duplikatów
+- [ ] weryfikacja odpowiedzi
+- [ ] efekty wynikow
+- 
+
 ## Priorytet 1 — fundamenty
 
 - [ ] main page

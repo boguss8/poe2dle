@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "download-icons": "node app/scripts/fetch-icons.mjs",
+    "json-duplicate-checker": "node app/scripts/json-duplicate-checker.mjs"
   },
   "dependencies": {
     "git": "^0.1.5",
