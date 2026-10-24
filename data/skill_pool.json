@@ -1,0 +1,10457 @@
+[
+ {
+  "id": "Metadata/Items/Gem/SkillGemTriggeredAbyssalApparition",
+  "name": "Abyssal Apparition",
+  "icon": "Art/2DArt/SkillIcons/4k/AbyssalLichApparitionSkill.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemAbyssalPact",
+  "name": "Abyssal Pact",
+  "icon": "Art/2DArt/SkillIcons/4k/AbyssDeathPactSkill.png",
+  "category": "minion",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Staff"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.7,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyPoisonousConcoction",
+  "name": "Acidic Concoction",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerBrewConcoctionPoisonSkill.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAlchemistsBoon",
+  "name": "Alchemist's Boon",
+  "icon": "Art/2DArt/SkillIcons/4k/AlchemistsBoonSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 14,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyAlignFate",
+  "name": "Align Fate",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidOracleSpellfluxSkill.png",
+  "category": "buff",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAncestralCry",
+  "name": "Ancestral Cry",
+  "icon": "Art/2DArt/SkillIcons/4k/WarriorAncestralCry.png",
+  "category": "buff",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile",
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "buff",
+   "conditional",
+   "duration",
+   "nova",
+   "slam",
+   "trigger"
+  ],
+  "tier": 13,
+  "mana": 10,
+  "castTime": 0.8,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyAncestralSpirits",
+  "name": "Ancestral Spirits",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteWarbringerDefenders.png",
+  "category": "minion",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "duration",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemAncestralWarriorTotem",
+  "name": "Ancestral Warrior Totem",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteAncestralWarriorTotem.png",
+  "category": "meta",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "conditional",
+   "duration",
+   "totem"
+  ],
+  "tier": 13,
+  "mana": 13,
+  "castTime": 0.5,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemAnimusExchange",
+  "name": "Animus Exchange",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionAnimusExhange.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [],
+  "tier": 0,
+  "mana": 15,
+  "castTime": 0.6,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemAnimusSplinters",
+  "name": "Animus Splinters",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionFalseLife.png",
+  "category": "meta",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemAscendancyApocalypse",
+  "name": "Apocalypse",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidShamanUnleashtheElementsSkill.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "fire",
+   "cold",
+   "lightning"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "conditional",
+   "duration",
+   "storm",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 8,
+  "castTime": 1,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemArc",
+  "name": "Arc",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressArc.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "projectile"
+  ],
+  "mechanics": [
+   "chaining",
+   "repeatable"
+  ],
+  "tier": 5,
+  "mana": 8,
+  "castTime": 1.1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemArchmage",
+  "name": "Archmage",
+  "icon": "Art/2DArt/SkillIcons/4k/ArchmageSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 14,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemArchonOfChayula",
+  "name": "Archon of Chayula",
+  "icon": "Art/2DArt/SkillIcons/4k/AcolyteOfChayulaSpecialNodeSkill.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "physical",
+   "chaos"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "conditional",
+   "duration",
+   "storm",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemArcticArmour",
+  "name": "Arctic Armour",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressArcticArmour.png",
+  "category": "spirit",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "stages",
+   "sustained"
+  ],
+  "tier": 4,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemWolfArcticHowl",
+  "name": "Arctic Howl",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidTundraHunter.png",
+  "category": "buff",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "duration",
+   "nova",
+   "shapeshift",
+   "wolf"
+  ],
+  "tier": 5,
+  "mana": 19,
+  "castTime": 0.8,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemArmourBreaker",
+  "name": "Armour Breaker",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteHeavyStrike.png",
+  "category": "attack",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "strike"
+  ],
+  "tier": 3,
+  "mana": 5,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemArmourPiercingRounds",
+  "name": "Armour Piercing Rounds",
+  "icon": "Art/2DArt/SkillIcons/4k/RapidShotPhysical.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "projectile"
+  ],
+  "mechanics": [
+   "ammunition"
+  ],
+  "tier": 1,
+  "mana": 8,
+  "castTime": 0.6,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemRipwireBallista",
+  "name": "Artillery Ballista",
+  "icon": "Art/2DArt/SkillIcons/4k/MercRipwireBallista.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "sustained",
+   "totem"
+  ],
+  "tier": 7,
+  "mana": 14,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAttrition",
+  "name": "Attrition",
+  "icon": "Art/2DArt/SkillIcons/4k/AttritionSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 4,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemAzmerianSwarm",
+  "name": "Azmerian Swarms",
+  "icon": "Art/2DArt/SkillIcons/4k/FluttermothSkillIcon.png",
+  "category": "minion",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "physical",
+   "fire",
+   "cold",
+   "lightning"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemAzmerianWolf",
+  "name": "Azmerian Wolf",
+  "icon": "Art/2DArt/SkillIcons/4k/ThePackLeaderBaseMinionSkill.png",
+  "category": "companion",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemBallLightning",
+  "name": "Ball Lightning",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressBallLightning.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "chaining",
+   "duration",
+   "repeatable",
+   "sustained"
+  ],
+  "tier": 11,
+  "mana": 9,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemBarkskin",
+  "name": "Barkskin",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidBarkSkin.png",
+  "category": "spirit",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent"
+  ],
+  "tier": 8,
+  "mana": 0,
+  "castTime": 1,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemBarrage",
+  "name": "Barrage",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerBarrageSkill.png",
+  "category": "spell",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow",
+   "Spear"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration"
+  ],
+  "tier": 5,
+  "mana": 11,
+  "castTime": 0.7,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemBarrierInvocation",
+  "name": "Barrier Invocation",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressBarrierInvocation.png",
+  "category": "spirit",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Elemental",
+   "Occult",
+   "Quarterstaff"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "invocation",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 8,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemBerserk",
+  "name": "Berserk",
+  "icon": "Art/2DArt/SkillIcons/4k/BeserkSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 14,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemBindSpectre",
+  "name": "Bind Spectre",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchBindSpectre.png",
+  "category": "minion",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "persistent"
+  ],
+  "tier": 7,
+  "mana": 22,
+  "castTime": 3,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemBitterDead",
+  "name": "Bitter Dead",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionBitterDead.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.75,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemBlackPowderBlitz",
+  "name": "Black Powder Blitz",
+  "icon": "Art/2DArt/SkillIcons/4k/ShankgonneSkill.png",
+  "category": "buff",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "physical",
+   "fire"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "detonator",
+   "persistent",
+   "travel"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemBlasphemy",
+  "name": "Blasphemy",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchBlasphemy.png",
+  "category": "spirit",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 8,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyBleedingConcoction",
+  "name": "Bleeding Concoction",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerBrewConcoctionBleedSkill.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemBlink",
+  "name": "Blink",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressBlinkReservation.png",
+  "category": "spirit",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "travel"
+  ],
+  "tier": 8,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyBloodBoil",
+  "name": "Blood Boil",
+  "icon": "Art/2DArt/SkillIcons/4k/PrimalistBloodBoilsSkillIcon.png",
+  "category": "buff",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemBloodHunt",
+  "name": "Blood Hunt",
+  "icon": "Art/2DArt/SkillIcons/4k/HuntressBloodHuntSkillIcon.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "payoff",
+   "strike"
+  ],
+  "tier": 7,
+  "mana": 5,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemBloodhoundsMark",
+  "name": "Bloodhound's Mark",
+  "icon": "Art/2DArt/SkillIcons/4k/MarkoftheBloodhoundSkillIcon.png",
+  "category": "curse",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "payoff",
+   "trigger"
+  ],
+  "tier": 9,
+  "mana": 18,
+  "castTime": 0.5,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemBoneBlast",
+  "name": "Bone Blast",
+  "icon": "Art/2DArt/SkillIcons/4k/BoneBlastWeaponSkill.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Wand"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.75,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemBoneCage",
+  "name": "Bone Cage",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchBoneCage.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "nova",
+   "repeatable"
+  ],
+  "tier": 3,
+  "mana": 7,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemBoneOffering",
+  "name": "Bone Offering",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchBoneOffering.png",
+  "category": "minion",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "duration"
+  ],
+  "tier": 11,
+  "mana": 25,
+  "castTime": 0.6,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemBoneshatter",
+  "name": "Boneshatter",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteBoneshatter.png",
+  "category": "attack",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "strike"
+  ],
+  "tier": 1,
+  "mana": 9,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemBonestorm",
+  "name": "Bonestorm",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchBoneStorm.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "channelling"
+  ],
+  "tier": 5,
+  "mana": 0,
+  "castTime": 0.125,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemBriarpatch",
+  "name": "Briarpatch",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidBriarpatch.png",
+  "category": "spirit",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent",
+   "plant",
+   "sustained"
+  ],
+  "tier": 4,
+  "mana": 0,
+  "castTime": 0,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemExplodingPoisonToad",
+  "name": "Bursting Fen Toad",
+  "icon": "Art/2DArt/SkillIcons/4k/MurkshaftToads.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "physical",
+   "chaos"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemHyenaCackle",
+  "name": "Cackling Companions",
+  "icon": "Art/2DArt/SkillIcons/4k/HandoftheClanSkill.png",
+  "category": "companion",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendanyMetaDeadeyeMarks",
+  "name": "Called Shots",
+  "icon": "Art/2DArt/SkillIcons/4k/DeadeyeMarkMetagemSkill.png",
+  "category": "meta",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemCastOnBlock",
+  "name": "Cast on Block",
+  "icon": "Art/2DArt/SkillIcons/4k/CastOnMeleeBlockSkill.png",
+  "category": "meta",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemCastOnCharmUse",
+  "name": "Cast on Charm Use",
+  "icon": "Art/2DArt/SkillIcons/4k/CastOnCharm.png",
+  "category": "meta",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemCastOnCritical",
+  "name": "Cast on Critical",
+  "icon": "Art/2DArt/SkillIcons/4k/CastOnCritSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 14,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemCastOnDeath",
+  "name": "Cast on Death",
+  "icon": "Art/2DArt/SkillIcons/4k/DeathWalk.png",
+  "category": "meta",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemCastOnDodge",
+  "name": "Cast on Dodge",
+  "icon": "Art/2DArt/SkillIcons/4k/CastOnDodgeRollSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 14,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemCastOnElementalAilment",
+  "name": "Cast on Elemental Ailment",
+  "icon": "Art/2DArt/SkillIcons/4k/CastonFreezeShockIgnite.png",
+  "category": "spirit",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "fire",
+   "cold",
+   "lightning"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 14,
+  "mana": 0,
+  "castTime": 0,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemCastOnFreeze",
+  "name": "Cast on Freeze",
+  "icon": "Art/2DArt/SkillIcons/4k/CastOnFreezeSkill.png",
+  "category": "meta",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemCastOnIgnite",
+  "name": "Cast on Ignite",
+  "icon": "Art/2DArt/SkillIcons/4k/CastOnIgniteSkill.png",
+  "category": "meta",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemCastOnMeleeKill",
+  "name": "Cast on Melee Kill",
+  "icon": "Art/2DArt/SkillIcons/4k/CastOnMeleeKillSkill.png",
+  "category": "meta",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemCastOnMeleeStun",
+  "name": "Cast on Melee Stun",
+  "icon": "Art/2DArt/SkillIcons/4k/CastOnMeleeStunSkill.png",
+  "category": "meta",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemCastOnMinionDeath",
+  "name": "Cast on Minion Death",
+  "icon": "Art/2DArt/SkillIcons/4k/CastOnMinionDeath.png",
+  "category": "spirit",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 8,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemCastOnShock",
+  "name": "Cast on Shock",
+  "icon": "Art/2DArt/SkillIcons/4k/CastOnShockSkill.png",
+  "category": "meta",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemCastWhenDamageTaken",
+  "name": "Cast when Damage Taken",
+  "icon": "Art/2DArt/SkillIcons/4k/icononfire.png",
+  "category": "meta",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemCastWhenStunned",
+  "name": "Cast when Stunned",
+  "icon": "Art/2DArt/SkillIcons/4k/TectonicSlam.png",
+  "category": "meta",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemCastWhileChannelling",
+  "name": "Cast while Channelling",
+  "icon": "Art/2DArt/SkillIcons/4k/CastWhileChannellingSkill.png",
+  "category": "meta",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemChaosbolt",
+  "name": "Chaos Bolt",
+  "icon": "Art/2DArt/SkillIcons/4k/ChaosBoltWeaponSkill.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Wand"
+  ],
+  "damage": [
+   "chaos"
+  ],
+  "delivery": [
+   "projectile"
+  ],
+  "mechanics": [
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.75,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemChaoticInfusion",
+  "name": "Chaotic Surge",
+  "icon": "Art/2DArt/SkillIcons/4k/SpireofIreSkillIcon.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "chaos"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemChargeInfusion",
+  "name": "Charge Regulation",
+  "icon": "Art/2DArt/SkillIcons/4k/ChargeMasteryDeath.png",
+  "category": "spirit",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Crossbow",
+   "Quarterstaff"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 14,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemChargedStaff",
+  "name": "Charged Staff",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkChargedStaff.png",
+  "category": "attack",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "conditional",
+   "duration"
+  ],
+  "tier": 9,
+  "mana": 15,
+  "castTime": 0.75,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemClusterGrenade",
+  "name": "Cluster Grenade",
+  "icon": "Art/2DArt/SkillIcons/4k/MercClusterGrenade.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "grenade"
+  ],
+  "tier": 13,
+  "mana": 14,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemCoilingBolts",
+  "name": "Coiling Bolts",
+  "icon": "Art/2DArt/SkillIcons/4k/CoilOfUndoingSkill.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Wand"
+  ],
+  "damage": [
+   "chaos"
+  ],
+  "delivery": [
+   "projectile"
+  ],
+  "mechanics": [
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemCombatFrenzy",
+  "name": "Combat Frenzy",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerCombatFrenzySkill.png",
+  "category": "spirit",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow",
+   "Spear"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 8,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemComet",
+  "name": "Comet",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressComet.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "repeatable"
+  ],
+  "tier": 11,
+  "mana": 17,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemConductiveRunes",
+  "name": "Conductive Runes",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionRunewordHazard.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "hazard"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemConductivity",
+  "name": "Conductivity",
+  "icon": "Art/2DArt/SkillIcons/4k/Conductivity.png",
+  "category": "curse",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 41,
+  "castTime": 0.7,
+  "version": 1
+ },
+ {
+  "id": "Metadata/items/Gems/SkillGemStaffConsecrate",
+  "name": "Consecrate",
+  "icon": "Art/2DArt/BuffIcons/4k/consecrated.png",
+  "category": "spell",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Staff"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "nova"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1.25,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemContagion",
+  "name": "Contagion",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchContagion.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [
+   "chaos"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 1,
+  "mana": 8,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemConvalescence",
+  "name": "Convalescence",
+  "icon": "Art/2DArt/SkillIcons/4k/ConvalescenceSkillIcon.png",
+  "category": "spirit",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental",
+   "Occult"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent"
+  ],
+  "tier": 4,
+  "mana": 0,
+  "castTime": 0,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemCracklingPalm",
+  "name": "Crackling Palm",
+  "icon": "Art/2DArt/SkillIcons/4k/ThunderfistUniqueSkill.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemWolfCrossSlash",
+  "name": "Cross Slash",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidCrossSlash.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "shapeshift",
+   "wolf"
+  ],
+  "tier": 7,
+  "mana": 10,
+  "castTime": 1,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemCrushingFear",
+  "name": "Crushing Fear",
+  "icon": "Art/2DArt/SkillIcons/4k/ChokingMistsSkillIcon.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "physical",
+   "chaos"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "strike"
+  ],
+  "tier": 0,
+  "mana": 6,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemCullTheWeak",
+  "name": "Cull The Weak",
+  "icon": "Art/2DArt/SkillIcons/4k/FrenziedLungeSkillIcon.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "strike"
+  ],
+  "tier": 3,
+  "mana": 6,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemCastCurseOnBlock",
+  "name": "Curse on Block",
+  "icon": "Art/2DArt/SkillIcons/4k/CastOnMeleeBlockSkill.png",
+  "category": "meta",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemDarkEffigy",
+  "name": "Dark Effigy",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchDarkEffigy.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [
+   "chaos"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "totem"
+  ],
+  "tier": 9,
+  "mana": 13,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemDarkPact",
+  "name": "Dark Pact",
+  "icon": "Art/2DArt/SkillIcons/4k/DeathPactSkill.png",
+  "category": "minion",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Staff"
+  ],
+  "damage": [
+   "chaos"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "nova",
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.7,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemCorpsewadeCorpseCloud",
+  "name": "Decompose",
+  "icon": "Art/2DArt/SkillIcons/4k/DecomposeSkill.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "fire",
+   "chaos"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.8,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemDefianceBanner",
+  "name": "Defiance Banner",
+  "icon": "Art/2DArt/SkillIcons/4k/DefianceBannerSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "banner",
+   "buff",
+   "conditional",
+   "duration",
+   "persistent"
+  ],
+  "tier": 8,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyDemonForm",
+  "name": "Demon Form",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchTransformDemon.png",
+  "category": "buff",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "shapeshift"
+  ],
+  "tier": 0,
+  "mana": 6,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemDemonMagus",
+  "name": "Demon Magus",
+  "icon": "Art/2DArt/SkillIcons/4k/SpellcastingMinionSupport.png",
+  "category": "meta",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.5,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemDespair",
+  "name": "Despair",
+  "icon": "Art/2DArt/SkillIcons/4k/Despair.png",
+  "category": "curse",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [
+   "chaos"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 9,
+  "mana": 41,
+  "castTime": 0.7,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemDetonateDead",
+  "name": "Detonate Dead",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchDetonateDead.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [
+   "physical",
+   "fire"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "detonator",
+   "repeatable"
+  ],
+  "tier": 7,
+  "mana": 9,
+  "castTime": 0.8,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemDetonateLiving",
+  "name": "Detonate Living",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionDetonateLiving.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.65,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemDetonateMinion",
+  "name": "Detonate Minion",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchArsonistSkeleton.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemDetonatingArrow",
+  "name": "Detonating Arrow",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerDetonatingArrowSkill.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "channelling",
+   "detonator",
+   "repeatable",
+   "stages"
+  ],
+  "tier": 9,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemWyvernDevour",
+  "name": "Devour",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidDevourShock.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "shapeshift",
+   "slam",
+   "wyvern"
+  ],
+  "tier": 5,
+  "mana": 8,
+  "castTime": 1,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemDiscipline",
+  "name": "Discipline",
+  "icon": "Art/2DArt/SkillIcons/4k/DisciplineWeaponSkill.png",
+  "category": "buff",
+  "attributes": [
+   "int",
+   "str"
+  ],
+  "sources": [
+   "Sceptre"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemDisengage",
+  "name": "Disengage",
+  "icon": "Art/2DArt/SkillIcons/4k/ImpaleSkillIcon.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "strike",
+   "travel"
+  ],
+  "tier": 1,
+  "mana": 5,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemDreadBanner",
+  "name": "Dread Banner",
+  "icon": "Art/2DArt/SkillIcons/4k/DreadBannerSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow",
+   "Mace"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "banner",
+   "buff",
+   "conditional",
+   "duration",
+   "persistent"
+  ],
+  "tier": 14,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemEarthquake",
+  "name": "Earthquake",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteEarthquake.png",
+  "category": "attack",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "duration",
+   "slam"
+  ],
+  "tier": 1,
+  "mana": 8,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemEarthshatter",
+  "name": "Earthshatter",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteEarthshatter.png",
+  "category": "attack",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "duration",
+   "slam"
+  ],
+  "tier": 7,
+  "mana": 7,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemElectrocutingArrow",
+  "name": "Electrocuting Arrow",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerElectrocutingRodSkill.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 5,
+  "mana": 6,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemElementalConflux",
+  "name": "Elemental Conflux",
+  "icon": "Art/2DArt/SkillIcons/4k/ElementalConfluxSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "fire",
+   "cold",
+   "lightning"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent"
+  ],
+  "tier": 14,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyElementalExpression",
+  "name": "Elemental Expression",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkInvokerWildStrike.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "fire",
+   "cold",
+   "lightning"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "chaining",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 3,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemElementalInvocation",
+  "name": "Elemental Invocation",
+  "icon": "Art/2DArt/SkillIcons/4k/ElementalInvocationSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Elemental",
+   "Quarterstaff"
+  ],
+  "damage": [
+   "fire",
+   "cold",
+   "lightning"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "invocation",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 8,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemElementalSiphon",
+  "name": "Elemental Siphon",
+  "icon": "Art/2DArt/SkillIcons/4k/ElementalSiphonSkillIcon.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "fire",
+   "cold",
+   "lightning"
+  ],
+  "delivery": [
+   "melee"
+  ],
+  "mechanics": [
+   "duration",
+   "strike"
+  ],
+  "tier": 0,
+  "mana": 9,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyElementalStorm",
+  "name": "Elemental Storm",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressElementalStorm.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "fire",
+   "cold",
+   "lightning"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "orb",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 8,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemElementalSundering",
+  "name": "Elemental Sundering",
+  "icon": "Art/2DArt/SkillIcons/4k/HuntressExtraElements.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [
+   "fire",
+   "cold",
+   "lightning"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "nova",
+   "payoff"
+  ],
+  "tier": 11,
+  "mana": 7,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyInfuseWeapon",
+  "name": "Elemental Surge",
+  "icon": "Art/2DArt/SkillIcons/4k/AmazonElementalInfusionSkillIcon.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "fire",
+   "cold",
+   "lightning"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemElementalWeakness",
+  "name": "Elemental Weakness",
+  "icon": "Art/2DArt/SkillIcons/4k/elementalweakness.png",
+  "category": "curse",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "fire",
+   "cold",
+   "lightning"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 7,
+  "mana": 41,
+  "castTime": 0.7,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemEmberFusillade",
+  "name": "Ember Fusillade",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressBlazingCluster.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 5,
+  "mana": 3,
+  "castTime": 0.4,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemEmergencyReload",
+  "name": "Emergency Reload",
+  "icon": "Art/2DArt/SkillIcons/4k/MercEmergencyReload.png",
+  "category": "buff",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration"
+  ],
+  "tier": 11,
+  "mana": 12,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyEncasedInJade",
+  "name": "Encase in Jade",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteWarbringerEncasedJade.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.3,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemEnervatingNova",
+  "name": "Enervating Nova",
+  "icon": "Art/2DArt/SkillIcons/4k/EnervatingNovaWeaponSkill.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Staff"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "nova",
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemEnfeeble",
+  "name": "Enfeeble",
+  "icon": "Art/2DArt/SkillIcons/4k/enfeeble.png",
+  "category": "curse",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 3,
+  "mana": 41,
+  "castTime": 0.7,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemEntangle",
+  "name": "Entangle",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidEntangle.png",
+  "category": "spell",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "plant",
+   "repeatable",
+   "sustained"
+  ],
+  "tier": 1,
+  "mana": 9,
+  "castTime": 0.9,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemEscapeShot",
+  "name": "Escape Shot",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerFrostEscapeShot.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "trigger"
+  ],
+  "tier": 1,
+  "mana": 11,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemEssenceDrain",
+  "name": "Essence Drain",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchEssenceDrain.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [
+   "chaos"
+  ],
+  "delivery": [
+   "projectile"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 3,
+  "mana": 5,
+  "castTime": 0.8,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemEternalMarch",
+  "name": "Eternal March",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionWardforgedMinions.png",
+  "category": "minion",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemEternalRage",
+  "name": "Eternal Rage",
+  "icon": "Art/2DArt/SkillIcons/4k/CeaselessRageSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 14,
+  "mana": 0,
+  "castTime": 0,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyExplosiveConcoction",
+  "name": "Explosive Concoction",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerBrewConcoctionFireSkill.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemExplosiveGrenade",
+  "name": "Explosive Grenade",
+  "icon": "Art/2DArt/SkillIcons/4k/ExplosiveGrenade.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "detonator",
+   "grenade"
+  ],
+  "tier": 1,
+  "mana": 10,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemExplosiveShot",
+  "name": "Explosive Shot",
+  "icon": "Art/2DArt/SkillIcons/4k/PowerShotIncendiary.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "ammunition",
+   "detonator"
+  ],
+  "tier": 7,
+  "mana": 9,
+  "castTime": 1.5,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemExplosiveSpear",
+  "name": "Explosive Spear",
+  "icon": "Art/2DArt/SkillIcons/4k/HuntressRemoteMineSpear.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "detonator",
+   "duration",
+   "repeatable"
+  ],
+  "tier": 1,
+  "mana": 5,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemExplosiveTransmutation",
+  "name": "Explosive Transmutation",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionExplosiveTransmutation.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [
+   "physical",
+   "fire",
+   "cold",
+   "lightning",
+   "chaos"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemExsanguinate",
+  "name": "Exsanguinate",
+  "icon": "Art/2DArt/SkillIcons/4k/BloodTendrilsSkill.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Wand"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "chaining",
+   "duration",
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemEyeOfWinter",
+  "name": "Eye of Winter",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressEyeofWinter.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "projectile"
+  ],
+  "mechanics": [],
+  "tier": 13,
+  "mana": 19,
+  "castTime": 1.4,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemFallingThunder",
+  "name": "Falling Thunder",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkLightningStrike.png",
+  "category": "attack",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "projectile",
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "slam"
+  ],
+  "tier": 1,
+  "mana": 11,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemFangsOfFrost",
+  "name": "Fangs of Frost",
+  "icon": "Art/2DArt/SkillIcons/4k/FangsofFrostSkillIcon.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "strike"
+  ],
+  "tier": 3,
+  "mana": 4,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemFeastOfFlesh",
+  "name": "Feast of Flesh",
+  "icon": "Art/2DArt/SkillIcons/4k/WeaponFeastofFlesh.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Staff"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "nova",
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1.3,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemFeralInvocation",
+  "name": "Feral Invocation",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidFeralInvocation.png",
+  "category": "spirit",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "invocation",
+   "persistent"
+  ],
+  "tier": 14,
+  "mana": 0,
+  "castTime": 0,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemFerociousRoar",
+  "name": "Ferocious Roar",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidBearWarcry.png",
+  "category": "meta",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "bear",
+   "nova",
+   "shapeshift"
+  ],
+  "tier": 7,
+  "mana": 19,
+  "castTime": 1.1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyFireSpellOnHit",
+  "name": "Fire Spell on Hit",
+  "icon": "Art/2DArt/SkillIcons/4k/SmithOfKitavaTriggerFireballsSkillIcon.png",
+  "category": "meta",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemFireball",
+  "name": "Fireball",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressGreaterFireball.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "repeatable"
+  ],
+  "tier": 3,
+  "mana": 10,
+  "castTime": 1.2,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemFirebolt",
+  "name": "Firebolt",
+  "icon": "Art/2DArt/SkillIcons/4k/FireballSkillStaff.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Staff"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.9,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemFirestorm",
+  "name": "Firestorm",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchFirestorm.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable",
+   "storm",
+   "sustained"
+  ],
+  "tier": 11,
+  "mana": 14,
+  "castTime": 1.4,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemWyvernFlameBreath",
+  "name": "Flame Breath",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidFlameBreath.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "channelling",
+   "detonator",
+   "duration",
+   "shapeshift",
+   "sustained",
+   "wyvern"
+  ],
+  "tier": 13,
+  "mana": 23,
+  "castTime": 1,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemFlameWall",
+  "name": "Flame Wall",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressFlameWall.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 1,
+  "mana": 10,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemFlameblast",
+  "name": "Flameblast",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressFlameblast.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "channelling",
+   "nova",
+   "stages"
+  ],
+  "tier": 13,
+  "mana": 0,
+  "castTime": 0.25,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemFlammability",
+  "name": "Flammability",
+  "icon": "Art/2DArt/SkillIcons/4k/Flammability.png",
+  "category": "curse",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 41,
+  "castTime": 0.7,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemFlashGrenade",
+  "name": "Flash Grenade",
+  "icon": "Art/2DArt/SkillIcons/4k/FlashbangGrenade.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "grenade"
+  ],
+  "tier": 3,
+  "mana": 7,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemFlickerStrike",
+  "name": "Flicker Strike",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkFlickerStrikeTeleport.png",
+  "category": "attack",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "strike"
+  ],
+  "tier": 13,
+  "mana": 12,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemForgeHammer",
+  "name": "Forge Hammer",
+  "icon": "Art/2DArt/SkillIcons/4k/WarriorForgeHammer.png",
+  "category": "attack",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "duration",
+   "slam"
+  ],
+  "tier": 9,
+  "mana": 9,
+  "castTime": 1,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemFortifyingCry",
+  "name": "Fortifying Cry",
+  "icon": "Art/2DArt/SkillIcons/4k/WarriorShieldingCry.png",
+  "category": "buff",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "duration",
+   "nova",
+   "trigger"
+  ],
+  "tier": 9,
+  "mana": 19,
+  "castTime": 0.8,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemFragmentationRounds",
+  "name": "Fragmentation Rounds",
+  "icon": "Art/2DArt/SkillIcons/4k/BurstShotPhysical.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "ammunition",
+   "merging",
+   "payoff"
+  ],
+  "tier": 1,
+  "mana": 7,
+  "castTime": 0.8,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemFragmentsOfThePast",
+  "name": "Fragments Of The Past",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionFragmentsofthePast.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "sustained",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+  "name": "Freezing Mark",
+  "icon": "Art/2DArt/SkillIcons/4k/FreezingMarkSkill.png",
+  "category": "curse",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Bow",
+   "Quarterstaff"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration"
+  ],
+  "tier": 7,
+  "mana": 18,
+  "castTime": 0.5,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemFreezingSalvo",
+  "name": "Freezing Salvo",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerFreezingSalvoSkill.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "repeatable"
+  ],
+  "tier": 3,
+  "mana": 15,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemFreezingShards",
+  "name": "Freezing Shards",
+  "icon": "Art/2DArt/SkillIcons/4k/FreezingShardsStaff.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Staff"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "projectile"
+  ],
+  "mechanics": [
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1.2,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemFrostBomb",
+  "name": "Frost Bomb",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressFrostBomb.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "orb",
+   "remnant"
+  ],
+  "tier": 1,
+  "mana": 9,
+  "castTime": 0.8,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemFrostDarts",
+  "name": "Frost Darts",
+  "icon": "Art/2DArt/SkillIcons/4k/FrostDartsSkillIcon.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "payoff",
+   "repeatable"
+  ],
+  "tier": 3,
+  "mana": 5,
+  "castTime": 0.8,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemFrostWall",
+  "name": "Frost Wall",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressFrostWall.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration"
+  ],
+  "tier": 9,
+  "mana": 7,
+  "castTime": 0.8,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemFrostbolt",
+  "name": "Frostbolt",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressFrostbolt.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "repeatable"
+  ],
+  "tier": 5,
+  "mana": 5,
+  "castTime": 0.8,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemFrostflameNova",
+  "name": "Frostflame Nova",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionFrostfireNova.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [
+   "fire",
+   "cold"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "nova",
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.7,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemFrozenLocus",
+  "name": "Frozen Locus",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkIceAmbush.png",
+  "category": "attack",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "duration"
+  ],
+  "tier": 1,
+  "mana": 12,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyFulminatingConcoction",
+  "name": "Fulminating Concoction",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerBrewConcoctionLightningSkill.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemFulmination",
+  "name": "Fulmination",
+  "icon": "Art/2DArt/SkillIcons/4k/WrathAuraWeaponSkill.png",
+  "category": "buff",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Sceptre"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemFuriousSlam",
+  "name": "Furious Slam",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidBearSlam.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "bear",
+   "shapeshift",
+   "slam"
+  ],
+  "tier": 1,
+  "mana": 10,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemBearFuryOfTheMountain",
+  "name": "Fury of the Mountain",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidFuryoftheMountain.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "bear",
+   "channelling",
+   "duration",
+   "shapeshift",
+   "slam",
+   "sustained"
+  ],
+  "tier": 5,
+  "mana": 0,
+  "castTime": 1,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemFuturePast",
+  "name": "Future-Past",
+  "icon": "Art/2DArt/SkillIcons/4k/HinekorasSightUnique.png",
+  "category": "buff",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemGalvanicField",
+  "name": "Galvanic Field",
+  "icon": "Art/2DArt/SkillIcons/4k/GalvanicFieldWeaponSkill.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Wand"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "chaining",
+   "duration",
+   "orb",
+   "sustained"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.65,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemGalvanicShards",
+  "name": "Galvanic Shards",
+  "icon": "Art/2DArt/SkillIcons/4k/BurstShotStormblast.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "projectile"
+  ],
+  "mechanics": [
+   "ammunition",
+   "chaining",
+   "merging"
+  ],
+  "tier": 5,
+  "mana": 6,
+  "castTime": 0.6,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemGasArrow",
+  "name": "Gas Arrow",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerGasCloudSkill.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [
+   "fire",
+   "chaos"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 7,
+  "mana": 9,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemGasGrenade",
+  "name": "Gas Grenade",
+  "icon": "Art/2DArt/SkillIcons/4k/ToxicGrenade.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [
+   "fire",
+   "chaos"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "grenade"
+  ],
+  "tier": 5,
+  "mana": 12,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemGatheringStorm",
+  "name": "Gathering Storm",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkGatheringStorm.png",
+  "category": "attack",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "channelling",
+   "duration",
+   "travel"
+  ],
+  "tier": 13,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemGelidPalm",
+  "name": "Gelid Palm",
+  "icon": "Art/2DArt/SkillIcons/4k/FrostFury.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemGeminiSurge",
+  "name": "Gemini Surge",
+  "icon": "Art/2DArt/SkillIcons/4k/AmazonElementalInfusionSkillIcon.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "fire",
+   "cold"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemGhostDance",
+  "name": "Ghost Dance",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkGhostDance.png",
+  "category": "spirit",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 4,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemGlacialBolt",
+  "name": "Glacial Bolt",
+  "icon": "Art/2DArt/SkillIcons/4k/PowerShotPermafrost.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "ammunition",
+   "duration"
+  ],
+  "tier": 7,
+  "mana": 7,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemGlacialCascade",
+  "name": "Glacial Cascade",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkGlacialCascade.png",
+  "category": "attack",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "payoff"
+  ],
+  "tier": 1,
+  "mana": 9,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemGlacialLance",
+  "name": "Glacial Lance",
+  "icon": "Art/2DArt/SkillIcons/4k/HuntressGlacialLance.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 7,
+  "mana": 8,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemGrimFeast",
+  "name": "Grim Feast",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchGrimFeast.png",
+  "category": "spirit",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "remnant"
+  ],
+  "tier": 4,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemGrimPillars",
+  "name": "Grim Pillars",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionGrimPillars.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "nova"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.7,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemHailstormRounds",
+  "name": "Hailstorm Rounds",
+  "icon": "Art/2DArt/SkillIcons/4k/SiegeCascadePermafrost.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "ammunition",
+   "sustained"
+  ],
+  "tier": 11,
+  "mana": 28,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemHammerOfTheGods",
+  "name": "Hammer of the Gods",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteHammerOfTheGods.png",
+  "category": "attack",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "conditional",
+   "duration",
+   "slam"
+  ],
+  "tier": 13,
+  "mana": 10,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemHandOfChayula",
+  "name": "Hand of Chayula",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkHandOfChayula.png",
+  "category": "meta",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [
+   "chaos"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "strike"
+  ],
+  "tier": 9,
+  "mana": 11,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemHarbingerOfMadness",
+  "name": "Harbinger of Madness",
+  "icon": "Art/2DArt/SkillIcons/4k/Murkmaw.png",
+  "category": "buff",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemHeartOfIce",
+  "name": "Heart of Ice",
+  "icon": "Art/2DArt/SkillIcons/4k/ChillingAuraSkillStaff.png",
+  "category": "buff",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Sceptre",
+   "Staff"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemHeraldOfAsh",
+  "name": "Herald of Ash",
+  "icon": "Art/2DArt/SkillIcons/4k/HeraldOfAshSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace",
+   "Primal"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent"
+  ],
+  "tier": 4,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemHeraldOfBlood",
+  "name": "Herald of Blood",
+  "icon": "Art/2DArt/SkillIcons/4k/HeraldOfBloodSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "payoff",
+   "persistent"
+  ],
+  "tier": 4,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+  "name": "Herald of Ice",
+  "icon": "Art/2DArt/SkillIcons/4k/HeraldOfIceSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Primal",
+   "Quarterstaff"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "payoff",
+   "persistent"
+  ],
+  "tier": 4,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemHeraldOfPlague",
+  "name": "Herald of Plague",
+  "icon": "Art/2DArt/SkillIcons/4k/HeraldOfAgonySkill.png",
+  "category": "spirit",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [
+   "chaos"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 8,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemHeraldOfThunder",
+  "name": "Herald of Thunder",
+  "icon": "Art/2DArt/SkillIcons/4k/HeraldOfThunderSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow",
+   "Crossbow",
+   "Quarterstaff",
+   "Spear"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "payoff",
+   "persistent"
+  ],
+  "tier": 4,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemHexblast",
+  "name": "Hexblast",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchHexBlast.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [
+   "chaos"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "payoff",
+   "repeatable"
+  ],
+  "tier": 11,
+  "mana": 12,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemHighVelocityRounds",
+  "name": "High Velocity Rounds",
+  "icon": "Art/2DArt/SkillIcons/4k/PowerShotPhysical.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "projectile"
+  ],
+  "mechanics": [
+   "ammunition",
+   "duration",
+   "payoff"
+  ],
+  "tier": 3,
+  "mana": 6,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemDarkTempest",
+  "name": "His Dark Horizon",
+  "icon": "Art/2DArt/SkillIcons/4k/DarkTempest.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "storm"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.6,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemHisFoulEmergence",
+  "name": "His Foul Emergence",
+  "icon": "Art/2DArt/SkillIcons/4k/ScreamingDevastation.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "physical",
+   "chaos"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemGraveCommand",
+  "name": "His Grave Command",
+  "icon": "Art/2DArt/SkillIcons/4k/GraveCommand.png",
+  "category": "companion",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "duration"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemScatteringCalamity",
+  "name": "His Scattering Calamity",
+  "icon": "Art/2DArt/SkillIcons/4k/ScatteringCalamity.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.4,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemVileDisruption",
+  "name": "His Vile Intrusion",
+  "icon": "Art/2DArt/SkillIcons/4k/VileDisruption.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.5,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemHisWinnowingFlame",
+  "name": "His Winnowing Flame",
+  "icon": "Art/2DArt/SkillIcons/4k/WinnowingFlame.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "payoff",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.7,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyHollowFocus",
+  "name": "Hollow Focus",
+  "icon": "Art/2DArt/SkillIcons/4k/MartialArtistSpectralBellSkill.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyHollowForm",
+  "name": "Hollow Form",
+  "icon": "Art/2DArt/SkillIcons/4k/MartialArtistMantraofIllusionsSkill.png",
+  "category": "meta",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [
+   "melee"
+  ],
+  "mechanics": [
+   "channelling",
+   "sustained"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyHollowResonance",
+  "name": "Hollow Resonance",
+  "icon": "Art/2DArt/SkillIcons/4k/MartialArtistCarrySpectralBellSkill.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemHollowShell",
+  "name": "Hollow Shell",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionHollowShell.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "nova"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.6,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemHydra",
+  "name": "Hydra Familiar",
+  "icon": "Art/2DArt/SkillIcons/4k/AncestorTotemSkill.png",
+  "category": "meta",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemHypothermia",
+  "name": "Hypothermia",
+  "icon": "Art/2DArt/SkillIcons/4k/Frostbite.png",
+  "category": "curse",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 41,
+  "castTime": 0.7,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemIceFragments",
+  "name": "Ice Fragments",
+  "icon": "Art/2DArt/SkillIcons/4k/iconbasicattack.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemIceNova",
+  "name": "Ice Nova",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressIceNova.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "nova",
+   "repeatable"
+  ],
+  "tier": 1,
+  "mana": 7,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemIceShards",
+  "name": "Ice Shards",
+  "icon": "Art/2DArt/SkillIcons/4k/RapidShotPermafrost.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "ammunition",
+   "hazard",
+   "sustained"
+  ],
+  "tier": 5,
+  "mana": 12,
+  "castTime": 0.6,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemIceShot",
+  "name": "Ice Shot",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerIceShot.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "projectile"
+  ],
+  "mechanics": [
+   "repeatable"
+  ],
+  "tier": 9,
+  "mana": 6,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemIceStrike",
+  "name": "Ice Strike",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkComboAttack.png",
+  "category": "attack",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "strike"
+  ],
+  "tier": 5,
+  "mana": 5,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemIceTippedArrows",
+  "name": "Ice-Tipped Arrows",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerShearingBolts.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "duration",
+   "trigger"
+  ],
+  "tier": 5,
+  "mana": 14,
+  "castTime": 0.7,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemIcestorm",
+  "name": "Icestorm",
+  "icon": "Art/2DArt/SkillIcons/4k/IceStormSkillStaff.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "payoff",
+   "repeatable",
+   "storm",
+   "sustained"
+  ],
+  "tier": 0,
+  "mana": 12,
+  "castTime": 1.2,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemImpurity",
+  "name": "Impurity",
+  "icon": "Art/2DArt/SkillIcons/4k/PurityofChaosWeaponSkill.png",
+  "category": "buff",
+  "attributes": [
+   "int",
+   "str"
+  ],
+  "sources": [
+   "Sceptre"
+  ],
+  "damage": [
+   "chaos"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemIncendiaryShot",
+  "name": "Incendiary Shot",
+  "icon": "Art/2DArt/SkillIcons/4k/BurstShotIncendiary.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "ammunition",
+   "merging"
+  ],
+  "tier": 3,
+  "mana": 6,
+  "castTime": 0.8,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemIncinerate",
+  "name": "Incinerate",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressIncinerate.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "channelling",
+   "duration",
+   "sustained"
+  ],
+  "tier": 9,
+  "mana": 0,
+  "castTime": 0.25,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyInevitableAgony",
+  "name": "Inevitable Agony",
+  "icon": "Art/2DArt/SkillIcons/4k/TemporalistSynchronisationofPainSkill.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 41,
+  "castTime": 0.7,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemInfernalCry",
+  "name": "Infernal Cry",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteInfernalCry.png",
+  "category": "buff",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "nova",
+   "trigger"
+  ],
+  "tier": 3,
+  "mana": 19,
+  "castTime": 0.8,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyIntoTheBreach",
+  "name": "Into the Breach",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkBreachWalk.png",
+  "category": "buff",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "remnant"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemIronWard",
+  "name": "Iron Ward",
+  "icon": "Art/2DArt/SkillIcons/4k/WardingSteel.png",
+  "category": "spirit",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "nova",
+   "persistent"
+  ],
+  "tier": 4,
+  "mana": 0,
+  "castTime": 1,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancySummonSandDjinn",
+  "name": "Kelari, the Tainted Sands",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressSummonSandDjinn.png",
+  "category": "minion",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyCommandSandExplodeTeleport",
+  "name": "Kelari's Deception",
+  "icon": "Art/2DArt/SkillIcons/Rolldodge.png",
+  "category": "minion",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration"
+  ],
+  "tier": 0,
+  "mana": 5,
+  "castTime": 0.4,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyCommandSandDaggerSlam",
+  "name": "Kelari's Judgment",
+  "icon": "Art/2DArt/SkillIcons/Rolldodge.png",
+  "category": "minion",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "channelling"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.4,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyCorpseBeetles",
+  "name": "Kelari's Malediction",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressSandDjinnCorpseBeetles.png",
+  "category": "minion",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "duration",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemKillingPalm",
+  "name": "Killing Palm",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkKillingPalm.png",
+  "category": "attack",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "strike"
+  ],
+  "tier": 1,
+  "mana": 6,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemHazardousHoldout",
+  "name": "Kinetic Bash",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteShieldBlock.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "channelling"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemLeapSlam",
+  "name": "Leap Slam",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteLeapSlam.png",
+  "category": "attack",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "payoff",
+   "slam",
+   "travel"
+  ],
+  "tier": 7,
+  "mana": 14,
+  "castTime": 1.4,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemLeylines",
+  "name": "Leylines",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionLeylines.png",
+  "category": "buff",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyLifeRemnants",
+  "name": "Life Remnants",
+  "icon": "Art/2DArt/SkillIcons/4k/BloodChannel.png",
+  "category": "buff",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "remnant"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemLightningArrow",
+  "name": "Lightning Arrow",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerLightningArrow.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "chaining",
+   "repeatable"
+  ],
+  "tier": 1,
+  "mana": 6,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemLightningBolt",
+  "name": "Lightning Bolt",
+  "icon": "Art/2DArt/SkillIcons/4k/LightningBoltSkillStaff.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Staff"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.85,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemLightningConduit",
+  "name": "Lightning Conduit",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressLightningConduit.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [],
+  "tier": 13,
+  "mana": 19,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemLightningRod",
+  "name": "Lightning Rod",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerLightningRodRainSkill.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable",
+   "sustained"
+  ],
+  "tier": 1,
+  "mana": 4,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemLightningSpear",
+  "name": "Lightning Spear",
+  "icon": "Art/2DArt/SkillIcons/4k/HuntressStormSpear.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "repeatable"
+  ],
+  "tier": 3,
+  "mana": 6,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemLightningWarp",
+  "name": "Lightning Warp",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressLightningWarp.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "remnant",
+   "repeatable"
+  ],
+  "tier": 9,
+  "mana": 8,
+  "castTime": 0.5,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemLingeringIllusion",
+  "name": "Lingering Illusion",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkLingeringIllusion.png",
+  "category": "spirit",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent",
+   "remnant"
+  ],
+  "tier": 8,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemLivingBombPlayer",
+  "name": "Living Bomb",
+  "icon": "Art/2DArt/SkillIcons/4k/LivingBombWeaponSkill.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "remnant"
+  ],
+  "tier": 3,
+  "mana": 8,
+  "castTime": 0.6,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemLunarAssault",
+  "name": "Lunar Assault",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidLunarAssault.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "shapeshift",
+   "strike",
+   "wolf"
+  ],
+  "tier": 1,
+  "mana": 6,
+  "castTime": 1,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemWolfLunarBlessing",
+  "name": "Lunar Blessing",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidLunarBlessing.png",
+  "category": "buff",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "duration",
+   "shapeshift",
+   "trigger",
+   "wolf"
+  ],
+  "tier": 13,
+  "mana": 24,
+  "castTime": 1,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemMagmaBarrier",
+  "name": "Magma Barrier",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteMagmaBarrier.png",
+  "category": "spirit",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 4,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemMagneticSalvo",
+  "name": "Magnetic Salvo",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerMagneticSalvo.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [],
+  "tier": 13,
+  "mana": 24,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemMalice",
+  "name": "Malice",
+  "icon": "Art/2DArt/SkillIcons/4k/MaliceWeaponSkill.png",
+  "category": "buff",
+  "attributes": [
+   "int",
+   "str"
+  ],
+  "sources": [
+   "Sceptre"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemManaDrain",
+  "name": "Mana Drain",
+  "icon": "Art/2DArt/SkillIcons/4k/ManaDrainWeaponSkill.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Wand"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.85,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemManaRemnants",
+  "name": "Mana Remnants",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressEnergyRemnants.png",
+  "category": "spirit",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "remnant"
+  ],
+  "tier": 4,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemManaTempest",
+  "name": "Mana Tempest",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressManaTempest.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "storm"
+  ],
+  "tier": 7,
+  "mana": 0,
+  "castTime": 0.6,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyManifestWeapon",
+  "name": "Manifest Weapon",
+  "icon": "Art/2DArt/SkillIcons/4k/SmithOfKitavaCreateWeaponSkillIcon.png",
+  "category": "companion",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemMantraOfDestruction",
+  "name": "Mantra of Destruction",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkMantraofDestruction.png",
+  "category": "buff",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [
+   "chaos"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "conditional",
+   "duration"
+  ],
+  "tier": 9,
+  "mana": 0,
+  "castTime": 0.6,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemBearMaul",
+  "name": "Maul",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidBearMaul.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "bear",
+   "shapeshift",
+   "strike"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyMeditate",
+  "name": "Meditate",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkInvokerMeditate.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "channelling"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemMidnightStar",
+  "name": "Midnight Zenith",
+  "icon": "Art/2DArt/SkillIcons/4k/NattblomSkillIcon.png",
+  "category": "buff",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+  "name": "Mirage Archer",
+  "icon": "Art/2DArt/SkillIcons/4k/LingeringMirageSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow",
+   "Spear"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 8,
+  "mana": 0,
+  "castTime": 0,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye",
+  "name": "Mirage Deadeye",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerDeadeyeMirageSkill.png",
+  "category": "meta",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemMirrorOfRefraction",
+  "name": "Mirror of Refraction",
+  "icon": "Art/2DArt/SkillIcons/4k/AtzirisRule.png",
+  "category": "buff",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Staff"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemMistRaven",
+  "name": "Mist Raven",
+  "icon": "Art/2DArt/SkillIcons/4k/MistRavenSummon.png",
+  "category": "companion",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "physical",
+   "chaos"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemMoltenBlast",
+  "name": "Molten Blast",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteMoltenBlast.png",
+  "category": "attack",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [],
+  "tier": 5,
+  "mana": 6,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemMoltenCrash",
+  "name": "Molten Crash",
+  "icon": "Art/2DArt/SkillIcons/4k/VesselofWrath.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "bear",
+   "shapeshift",
+   "slam",
+   "travel"
+  ],
+  "tier": 0,
+  "mana": 14,
+  "castTime": 1.4,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemMoltenShower",
+  "name": "Molten Shower",
+  "icon": "Art/2DArt/SkillIcons/4k/VolcanicEruptionSkillIcon.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyMomentOfVulnerability",
+  "name": "Moment of Vulnerability",
+  "icon": "Art/2DArt/SkillIcons/passives/4k/DruidOracleRipFromTimeSkill.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "nova"
+  ],
+  "tier": 0,
+  "mana": 6,
+  "castTime": 0.65,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemMortarCannon",
+  "name": "Mortar Cannon",
+  "icon": "Art/2DArt/SkillIcons/4k/GrenadeBallistaSkillIcon.png",
+  "category": "meta",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "duration",
+   "grenade",
+   "totem"
+  ],
+  "tier": 11,
+  "mana": 18,
+  "castTime": 1,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancySummonWaterDjinn",
+  "name": "Navira, the Last Mirage",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressSummonWaterDjinn.png",
+  "category": "minion",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyCommandWaterDjinnGroundBurst",
+  "name": "Navira's Fracturing",
+  "icon": "Art/2DArt/SkillIcons/Rolldodge.png",
+  "category": "minion",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [],
+  "tier": 0,
+  "mana": 3,
+  "castTime": 0.4,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyCommandWaterDjinnOasis",
+  "name": "Navira's Oasis",
+  "icon": "Art/2DArt/SkillIcons/Rolldodge.png",
+  "category": "minion",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration"
+  ],
+  "tier": 0,
+  "mana": 7,
+  "castTime": 0.4,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyCommandWaterDjinnESRecharge",
+  "name": "Navira's Well",
+  "icon": "Art/2DArt/SkillIcons/Rolldodge.png",
+  "category": "minion",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "duration"
+  ],
+  "tier": 0,
+  "mana": 6,
+  "castTime": 0.4,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemOilBarrage",
+  "name": "Oil Barrage",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidElectricSpittle.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "channelling",
+   "shapeshift",
+   "sustained",
+   "wyvern"
+  ],
+  "tier": 9,
+  "mana": 6,
+  "castTime": 1,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemOilGrenade",
+  "name": "Oil Grenade",
+  "icon": "Art/2DArt/SkillIcons/4k/OilGrenade.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "grenade"
+  ],
+  "tier": 9,
+  "mana": 9,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemOrbOfStorms",
+  "name": "Orb of Storms",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressOrbOfStorms.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "chaining",
+   "duration",
+   "orb",
+   "remnant",
+   "repeatable",
+   "sustained"
+  ],
+  "tier": 3,
+  "mana": 12,
+  "castTime": 0.8,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemOverwhelmingPresence",
+  "name": "Overwhelming Presence",
+  "icon": "Art/2DArt/SkillIcons/4k/OverwhelmingPressureSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Crossbow",
+   "Mace",
+   "Primal"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 8,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemPainOffering",
+  "name": "Pain Offering",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchPainOffering.png",
+  "category": "minion",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "duration"
+  ],
+  "tier": 5,
+  "mana": 25,
+  "castTime": 0.6,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemParry",
+  "name": "Parry",
+  "icon": "Art/2DArt/SkillIcons/4k/HuntressBucklerParry.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Buckler",
+   "Shield"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "melee"
+  ],
+  "mechanics": [
+   "channelling",
+   "duration"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemPerfectStrike",
+  "name": "Perfect Strike",
+  "icon": "Art/2DArt/SkillIcons/4k/BrutePerfectStrike.png",
+  "category": "attack",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "channelling",
+   "strike"
+  ],
+  "tier": 5,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemPermafrostBolts",
+  "name": "Permafrost Bolts",
+  "icon": "Art/2DArt/SkillIcons/4k/BurstShotPermafrost.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "ammunition",
+   "merging"
+  ],
+  "tier": 1,
+  "mana": 6,
+  "castTime": 0.8,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemPhantasmalArrow",
+  "name": "Phantasmal Arrow",
+  "icon": "Art/2DArt/SkillIcons/4k/GhostfuseArrow.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 6,
+  "castTime": 1,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemPinnacleOfPower",
+  "name": "Pinnacle of Power",
+  "icon": "Art/2DArt/SkillIcons/4k/ElementalPowerSkillWand.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "fire",
+   "cold",
+   "lightning"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "conditional",
+   "duration"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemPlagueBearer",
+  "name": "Plague Bearer",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerPlagueBearerSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [
+   "physical",
+   "chaos"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "nova",
+   "persistent"
+  ],
+  "tier": 4,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemPlasmaBlast",
+  "name": "Plasma Blast",
+  "icon": "Art/2DArt/SkillIcons/4k/PowerShotStormblast.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "ammunition",
+   "channelling"
+  ],
+  "tier": 13,
+  "mana": 18,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemPoisonBurstArrow",
+  "name": "Poisonburst Arrow",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerPoisonBurstArrow.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [
+   "chaos"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 1,
+  "mana": 5,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemWolfPounce",
+  "name": "Pounce",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidWolfLeapAttack.png",
+  "category": "meta",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "duration",
+   "shapeshift",
+   "slam",
+   "travel",
+   "trigger",
+   "wolf"
+  ],
+  "tier": 3,
+  "mana": 15,
+  "castTime": 1,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemPowerSiphon",
+  "name": "Power Siphon",
+  "icon": "Art/2DArt/SkillIcons/4k/PowerSiphonWeaponSkill.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Wand"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [],
+  "mechanics": [],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.7,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemPoweredByVerisium",
+  "name": "Powered by Verisium",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionVerisiumInfusion.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.7,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemPrimalAvatar",
+  "name": "Primal Avatar",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidPrimalAvatar.png",
+  "category": "utility",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "duration"
+  ],
+  "tier": 0,
+  "mana": 22,
+  "castTime": 1,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemPrimalBounty",
+  "name": "Primal Bounty",
+  "icon": "Art/2DArt/SkillIcons/4k/WildspeakerOwlFeathersSkill.png",
+  "category": "buff",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemPrimalStrikes",
+  "name": "Primal Strikes",
+  "icon": "Art/2DArt/SkillIcons/4k/PrimalStrikesSkillIcon.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "payoff",
+   "strike"
+  ],
+  "tier": 9,
+  "mana": 5,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemProfaneRitual",
+  "name": "Profane Ritual",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchProfaneRitual.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [
+   "chaos"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 7,
+  "mana": 6,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemPurityOfFire",
+  "name": "Purity of Fire",
+  "icon": "Art/2DArt/SkillIcons/4k/PurityofFireWeaponSkill.png",
+  "category": "buff",
+  "attributes": [
+   "int",
+   "str"
+  ],
+  "sources": [
+   "Sceptre"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemPurityOfIce",
+  "name": "Purity of Ice",
+  "icon": "Art/2DArt/SkillIcons/4k/PurityofColdWeaponSkill.png",
+  "category": "buff",
+  "attributes": [
+   "int",
+   "str"
+  ],
+  "sources": [
+   "Sceptre"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemPurityOfLightning",
+  "name": "Purity of Lightning",
+  "icon": "Art/2DArt/SkillIcons/4k/PurityofLightningWeaponSkill.png",
+  "category": "buff",
+  "attributes": [
+   "int",
+   "str"
+  ],
+  "sources": [
+   "Sceptre"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyQueensProcession",
+  "name": "Queen's Procession",
+  "icon": "Art/2DArt/SkillIcons/4k/RitualistQueenInTheMistsSkill.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemRagingSpirits",
+  "name": "Raging Spirits",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchReservationRaginSpirits.png",
+  "category": "spirit",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent"
+  ],
+  "tier": 4,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemRainOfArrows",
+  "name": "Rain of Arrows",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerRainOfArrowsSkill.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "sustained"
+  ],
+  "tier": 9,
+  "mana": 15,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemRainOfBlades",
+  "name": "Rain of Blades",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionRainofBlades.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "duration",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemShieldBlock",
+  "name": "Raise Shield",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteShieldBlock.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Buckler",
+   "Shield"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "channelling"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemRaiseZombie",
+  "name": "Raise Zombie",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchRaiseZombie.png",
+  "category": "minion",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "duration"
+  ],
+  "tier": 5,
+  "mana": 10,
+  "castTime": 0.6,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemRake",
+  "name": "Rake",
+  "icon": "Art/2DArt/SkillIcons/4k/HuntressBloodHunt.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "strike"
+  ],
+  "tier": 3,
+  "mana": 6,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemBearRampage",
+  "name": "Rampage",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidBearRampage.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "bear",
+   "channelling",
+   "shapeshift",
+   "slam",
+   "sustained",
+   "travel"
+  ],
+  "tier": 11,
+  "mana": 14,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemRapidAssault",
+  "name": "Rapid Assault",
+  "icon": "Art/2DArt/SkillIcons/4k/HuntressRapidAssault.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "duration",
+   "strike"
+  ],
+  "tier": 5,
+  "mana": 10,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemRapidShot",
+  "name": "Rapid Shot",
+  "icon": "Art/2DArt/SkillIcons/4k/RapidShotIncendiary.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile"
+  ],
+  "mechanics": [
+   "ammunition"
+  ],
+  "tier": 5,
+  "mana": 27,
+  "castTime": 1.2,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemRavenousSwarm",
+  "name": "Ravenous Swarm",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchRavenousSwarm.png",
+  "category": "spirit",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [
+   "physical",
+   "chaos"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent"
+  ],
+  "tier": 4,
+  "mana": 0,
+  "castTime": 0,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemReap",
+  "name": "Reap",
+  "icon": "Art/2DArt/SkillIcons/4k/ReapWeaponSkill.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Staff"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1.2,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemReapersInvocation",
+  "name": "Reaper's Invocation",
+  "icon": "Art/2DArt/SkillIcons/4k/MeleeInvocationSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "invocation",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 14,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemRefutation",
+  "name": "Refutation",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionRunicFortress.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration",
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.65,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemRemnantsOfKalguur",
+  "name": "Remnants of Kalguur",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionRemnantsofKalguur.png",
+  "category": "buff",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "remnant"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemRend",
+  "name": "Rend",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidWyvernSwipe.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "duration",
+   "shapeshift",
+   "strike",
+   "wyvern"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemRepulsion",
+  "name": "Repulsion",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionMarkofRepulsion.png",
+  "category": "curse",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.5,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemCrossbowRequiem",
+  "name": "Requiem",
+  "icon": "Art/2DArt/SkillIcons/4k/RequiemChargeSkillCrossbow.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "ammunition",
+   "conditional"
+  ],
+  "tier": 0,
+  "mana": 22,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemResonatingShield",
+  "name": "Resonating Shield",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteResonatingShield.png",
+  "category": "attack",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "channelling",
+   "sustained"
+  ],
+  "tier": 5,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemRhoaMount",
+  "name": "Rhoa Mount",
+  "icon": "Art/2DArt/SkillIcons/4k/RhoaMountSkillIcon.png",
+  "category": "spirit",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow",
+   "Spear"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 14,
+  "mana": 0,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemRighteousDescent",
+  "name": "Righteous Descent",
+  "icon": "Art/2DArt/SkillIcons/4k/ChallengersAscentSkill.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "physical",
+   "lightning"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "slam",
+   "travel"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSigilOfLife",
+  "name": "Rite of Restoration",
+  "icon": "Art/2DArt/SkillIcons/4k/HuskofDreamsSkill.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "stages"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.6,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyRitualSacrifice",
+  "name": "Ritual Sacrifice",
+  "icon": "Art/2DArt/SkillIcons/4k/PrimalistStabCorpseSkillIcon.png",
+  "category": "buff",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 5,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemRollingMagma",
+  "name": "Rolling Magma",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidRollingMagma.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "detonator",
+   "shapeshift",
+   "wyvern"
+  ],
+  "tier": 3,
+  "mana": 8,
+  "castTime": 0.7,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemRollingSlam",
+  "name": "Rolling Slam",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteDoubleSlam.png",
+  "category": "attack",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "slam"
+  ],
+  "tier": 1,
+  "mana": 14,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemRunicReprieve",
+  "name": "Runic Reprieve",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionKalguuranWard.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "channelling"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.12,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemRunicTempering",
+  "name": "Runic Tempering",
+  "icon": "Art/2DArt/SkillIcons/4k/SerlesMasterwork.png",
+  "category": "utility",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "channelling"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1.125,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancySummonFireDjinn",
+  "name": "Ruzhan, the Blazing Sword",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressSummonFireDjinn.png",
+  "category": "minion",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyCommandFireDjinnMassFusillade",
+  "name": "Ruzhan's Fury",
+  "icon": "Art/2DArt/SkillIcons/Rolldodge.png",
+  "category": "minion",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [],
+  "tier": 0,
+  "mana": 4,
+  "castTime": 0.4,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyCommandFireDjinnMeteor",
+  "name": "Ruzhan's Reckoning",
+  "icon": "Art/2DArt/SkillIcons/Rolldodge.png",
+  "category": "minion",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [],
+  "tier": 0,
+  "mana": 6,
+  "castTime": 0.4,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyCommandFireDjinnFlameRunes",
+  "name": "Ruzhan's Trap",
+  "icon": "Art/2DArt/SkillIcons/Rolldodge.png",
+  "category": "minion",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "hazard"
+  ],
+  "tier": 0,
+  "mana": 4,
+  "castTime": 0.4,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemSacrifice",
+  "name": "Sacrifice",
+  "icon": "Art/2DArt/SkillIcons/4k/HarvesterSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 14,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemSanguineRevelry",
+  "name": "Sanguine Revelry",
+  "icon": "Art/2DArt/SkillIcons/4k/CrimsonChrysalis.png",
+  "category": "buff",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "remnant"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSavageFury",
+  "name": "Savage Fury",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidWildBeast.png",
+  "category": "spirit",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent"
+  ],
+  "tier": 4,
+  "mana": 0,
+  "castTime": 0,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemScavengedPlating",
+  "name": "Scavenged Plating",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteScavengedPlating.png",
+  "category": "spirit",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent"
+  ],
+  "tier": 4,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSeismicCry",
+  "name": "Seismic Cry",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteSeismicCry.png",
+  "category": "buff",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "nova"
+  ],
+  "tier": 11,
+  "mana": 19,
+  "castTime": 0.8,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemShardScavenger",
+  "name": "Shard Scavenger",
+  "icon": "Art/2DArt/SkillIcons/4k/MercShardDespoiler.png",
+  "category": "spirit",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [
+   "physical",
+   "fire",
+   "cold",
+   "lightning"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent"
+  ],
+  "tier": 8,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyShatteringConcoction",
+  "name": "Shattering Concoction",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerBrewConcoctionColdSkill.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemShatteringPalm",
+  "name": "Shattering Palm",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkShatteringPalm.png",
+  "category": "attack",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "strike",
+   "trigger"
+  ],
+  "tier": 11,
+  "mana": 5,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemShatteringSpite",
+  "name": "Shattering Spite",
+  "icon": "Art/2DArt/SkillIcons/4k/AtzirisContempt.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "physical",
+   "fire",
+   "lightning"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemShieldCharge",
+  "name": "Shield Charge",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteShieldCharge.png",
+  "category": "attack",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "channelling",
+   "travel"
+  ],
+  "tier": 3,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemShieldWall",
+  "name": "Shield Wall",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteShieldWall.png",
+  "category": "attack",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "duration"
+  ],
+  "tier": 7,
+  "mana": 13,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemShockburstRounds",
+  "name": "Shockburst Rounds",
+  "icon": "Art/2DArt/SkillIcons/4k/RapidShotStormblast.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "ammunition",
+   "payoff"
+  ],
+  "tier": 11,
+  "mana": 14,
+  "castTime": 0.8,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemShockchainArrow",
+  "name": "Shockchain Arrow",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerShockchainSkill.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "chaining",
+   "payoff",
+   "repeatable"
+  ],
+  "tier": 11,
+  "mana": 10,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemShockwaveTotem",
+  "name": "Shockwave Totem",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteShockwaveTotem.png",
+  "category": "attack",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace",
+   "Primal"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "duration",
+   "nova",
+   "slam",
+   "totem"
+  ],
+  "tier": 3,
+  "mana": 15,
+  "castTime": 0.6,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemWolfShred",
+  "name": "Shred",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidFrozenClaws.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "projectile",
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "payoff",
+   "shapeshift",
+   "strike",
+   "trigger",
+   "wolf"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemShroud",
+  "name": "Shroud",
+  "icon": "Art/2DArt/SkillIcons/4k/AmbushIcon.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemArtilleryBallista",
+  "name": "Siege Ballista",
+  "icon": "Art/2DArt/SkillIcons/4k/MercArtilleryBallista.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable",
+   "sustained",
+   "totem"
+  ],
+  "tier": 9,
+  "mana": 18,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemSiegeCascade",
+  "name": "Siege Cascade",
+  "icon": "Art/2DArt/SkillIcons/4k/SiegeCascadePhysical.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "ammunition",
+   "sustained"
+  ],
+  "tier": 13,
+  "mana": 12,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSigilOfPower",
+  "name": "Sigil of Power",
+  "icon": "Art/2DArt/SkillIcons/4k/SigilofPowerWeaponSkill.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Staff"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "stages"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.6,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemSiphonElements",
+  "name": "Siphon Elements",
+  "icon": "Art/2DArt/SkillIcons/4k/SiphonElements.png",
+  "category": "spirit",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "fire",
+   "cold",
+   "lightning"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "remnant"
+  ],
+  "tier": 8,
+  "mana": 0,
+  "castTime": 0,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemSiphoningStrike",
+  "name": "Siphoning Strike",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkSiphoningStrike.png",
+  "category": "attack",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "payoff",
+   "strike"
+  ],
+  "tier": 7,
+  "mana": 7,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSkeletalArsonist",
+  "name": "Skeletal Arsonist",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchArsonistSkeleton.png",
+  "category": "minion",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "detonator",
+   "persistent"
+  ],
+  "tier": 3,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSkeletalBrute",
+  "name": "Skeletal Brute",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchBruteSkeleton.png",
+  "category": "minion",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "payoff",
+   "persistent"
+  ],
+  "tier": 13,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSkeletalCleric",
+  "name": "Skeletal Cleric",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchClericSkeleton.png",
+  "category": "minion",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "persistent"
+  ],
+  "tier": 13,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSkeletalFrostMage",
+  "name": "Skeletal Frost Mage",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchFrostSkeleton.png",
+  "category": "minion",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "persistent"
+  ],
+  "tier": 5,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSkeletalReaver",
+  "name": "Skeletal Reaver",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchReaverSkeleton.png",
+  "category": "minion",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "persistent"
+  ],
+  "tier": 9,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSkeletalSniper",
+  "name": "Skeletal Sniper",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchArcherSkeleton.png",
+  "category": "minion",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [
+   "physical",
+   "fire",
+   "chaos"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "persistent"
+  ],
+  "tier": 1,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSkeletalStormMage",
+  "name": "Skeletal Storm Mage",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchStormSkeleton.png",
+  "category": "minion",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "persistent"
+  ],
+  "tier": 11,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSkeletalWarriorWeaponSkill",
+  "name": "Skeletal Warrior",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchWarriorSkeleton.png",
+  "category": "minion",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Sceptre"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSkyfall",
+  "name": "Skyfall",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionVerisiumComet.png",
+  "category": "minion",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [
+   "physical",
+   "cold"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "conditional",
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSmashToSmithereens",
+  "name": "Smash to Smithereens",
+  "icon": "Art/2DArt/SkillIcons/4k/icongroundslam.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemColdSnap",
+  "name": "Snap",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressColdSnap.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "fire",
+   "cold",
+   "lightning"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "payoff",
+   "remnant",
+   "repeatable"
+  ],
+  "tier": 5,
+  "mana": 8,
+  "castTime": 0.5,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemSnipe",
+  "name": "Snipe",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerSnipeShotArrow.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "channelling",
+   "payoff",
+   "repeatable"
+  ],
+  "tier": 3,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSnipersMark",
+  "name": "Sniper's Mark",
+  "icon": "Art/2DArt/SkillIcons/4k/projectileweakness.png",
+  "category": "curse",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "duration"
+  ],
+  "tier": 7,
+  "mana": 18,
+  "castTime": 0.5,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemGlacialClash",
+  "name": "Soaring Midnight",
+  "icon": "Art/2DArt/SkillIcons/4k/ShieldNightfall1.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "physical",
+   "cold"
+  ],
+  "delivery": [
+   "projectile",
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "slam",
+   "travel"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemSolarOrb",
+  "name": "Solar Orb",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressSolarOrb.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Staff"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "orb",
+   "repeatable",
+   "sustained"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.8,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancySorceryWard",
+  "name": "Sorcery Ward",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchunterSpellAegis.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "fire",
+   "cold",
+   "lightning"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemSoulOffering",
+  "name": "Soul Offering",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchPowerOffering.png",
+  "category": "minion",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration"
+  ],
+  "tier": 13,
+  "mana": 32,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSoulrend",
+  "name": "Soulrend",
+  "icon": "Art/2DArt/SkillIcons/4k/Soulrend.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Staff"
+  ],
+  "damage": [
+   "chaos"
+  ],
+  "delivery": [
+   "projectile"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.8,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSpark",
+  "name": "Spark",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressSpark.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "projectile"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 1,
+  "mana": 5,
+  "castTime": 0.7,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemSpearOfSolaris",
+  "name": "Spear of Solaris",
+  "icon": "Art/2DArt/SkillIcons/4k/SolarisSpearSkillIcon.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "conditional",
+   "sustained"
+  ],
+  "tier": 13,
+  "mana": 13,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSpearfield",
+  "name": "Spearfield",
+  "icon": "Art/2DArt/SkillIcons/4k/HuntressSpearField.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "duration",
+   "hazard",
+   "sustained"
+  ],
+  "tier": 5,
+  "mana": 5,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSpellTotem",
+  "name": "Spell Totem",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidSpellTotem.png",
+  "category": "meta",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "conditional",
+   "duration",
+   "totem"
+  ],
+  "tier": 7,
+  "mana": 18,
+  "castTime": 0.5,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemSpellslinger",
+  "name": "Spellslinger",
+  "icon": "Art/2DArt/SkillIcons/4k/SpellslingerWeaponSkill.png",
+  "category": "meta",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Wand"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "invocation",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSpinningInferno",
+  "name": "Spinning Inferno",
+  "icon": "Art/2DArt/SkillIcons/4k/FlamesOfJudgement.png",
+  "category": "attack",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "strike"
+  ],
+  "tier": 0,
+  "mana": 20,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSpiralVolley",
+  "name": "Spiral Volley",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerSpiralVolleySkill.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [],
+  "delivery": [
+   "projectile"
+  ],
+  "mechanics": [
+   "sustained"
+  ],
+  "tier": 13,
+  "mana": 6,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSpiralingConspiracy",
+  "name": "Spiraling Conspiracy",
+  "icon": "Art/2DArt/SkillIcons/4k/RoostOfTheRavenKingSwarm.png",
+  "category": "minion",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Staff"
+  ],
+  "damage": [
+   "physical",
+   "chaos"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSpiritVessel",
+  "name": "Spirit Vessel",
+  "icon": "Art/2DArt/SkillIcons/4k/TheAncientOrder.png",
+  "category": "meta",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemStaggeringPalm",
+  "name": "Staggering Palm",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkWindPalm.png",
+  "category": "attack",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "projectile",
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "buff",
+   "duration",
+   "strike",
+   "wind"
+  ],
+  "tier": 3,
+  "mana": 7,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemStampede",
+  "name": "Stampede",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteStampede.png",
+  "category": "attack",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "duration",
+   "slam",
+   "travel"
+  ],
+  "tier": 11,
+  "mana": 9,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemStarbornOnslaught",
+  "name": "Starborn Onslaught",
+  "icon": "Art/2DArt/SkillIcons/4k/HimindrygrSkillIcon.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "physical",
+   "cold"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "duration",
+   "slam"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemStormLance",
+  "name": "Storm Lance",
+  "icon": "Art/2DArt/SkillIcons/4k/HuntressOverchargedSpear.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable",
+   "sustained"
+  ],
+  "tier": 5,
+  "mana": 6,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemStormWave",
+  "name": "Storm Wave",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkStormWave.png",
+  "category": "attack",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [],
+  "tier": 7,
+  "mana": 8,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemStormblastBolts",
+  "name": "Stormblast Bolts",
+  "icon": "Art/2DArt/SkillIcons/4k/SiegeCascadeStormblast.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "ammunition",
+   "duration"
+  ],
+  "tier": 9,
+  "mana": 9,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemStormcallerArrow",
+  "name": "Stormcaller Arrow",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerShockingArrow.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 3,
+  "mana": 7,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSummonMercenaryCompanion",
+  "name": "Summon Companion",
+  "icon": "Art/2DArt/SkillIcons/4k/SummonMercCompanion.png",
+  "category": "meta",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "ammunition",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancySummonInfernalHound",
+  "name": "Summon Infernal Hound",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchSummonInfernalFamiliar.png",
+  "category": "companion",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSunder",
+  "name": "Sunder",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteSunder.png",
+  "category": "attack",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "duration",
+   "payoff",
+   "slam"
+  ],
+  "tier": 9,
+  "mana": 15,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemSuperchargedSlam",
+  "name": "Supercharged Slam",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteSuperchargedSlam.png",
+  "category": "attack",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "channelling",
+   "slam",
+   "stages"
+  ],
+  "tier": 11,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemAscendancySupportingFire",
+  "name": "Supporting Fire",
+  "icon": "Art/2DArt/SkillIcons/4k/TacticianDeathFromAboveSkillIcon.png",
+  "category": "minion",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemTameBeast",
+  "name": "Tame Beast",
+  "icon": "Art/2DArt/SkillIcons/4k/HuntressTameBeast.png",
+  "category": "companion",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "duration",
+   "persistent"
+  ],
+  "tier": 7,
+  "mana": 22,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyTemperWeapon",
+  "name": "Temper Weapon",
+  "icon": "Art/2DArt/SkillIcons/4k/SmithOfKitavaImbueWeaponSkillIcon.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "buff",
+   "channelling",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1.125,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemTempestBell",
+  "name": "Tempest Bell",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkTempestBell.png",
+  "category": "attack",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "conditional",
+   "duration",
+   "sustained"
+  ],
+  "tier": 3,
+  "mana": 14,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemTempestFlurry",
+  "name": "Tempest Flurry",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkTempestFlurry.png",
+  "category": "attack",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "strike"
+  ],
+  "tier": 5,
+  "mana": 5,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemTemporalChains",
+  "name": "Temporal Chains",
+  "icon": "Art/2DArt/SkillIcons/4k/temporalchains.png",
+  "category": "curse",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Elemental"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 7,
+  "mana": 41,
+  "castTime": 0.7,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyTemporalRift",
+  "name": "Temporal Rift",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressTemporalistTemporalRift.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemTheStarsAnswer",
+  "name": "The Stars Answer",
+  "icon": "Art/2DArt/SkillIcons/4k/Runeseeker.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "physical",
+   "cold"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "duration",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 2,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemThrashingVines",
+  "name": "Thrashing Vines",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidAwakenedForest.png",
+  "category": "spell",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "plant",
+   "sustained"
+  ],
+  "tier": 9,
+  "mana": 14,
+  "castTime": 1,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemLightningSpellOnHit",
+  "name": "Thundergod's Wrath",
+  "icon": "Art/2DArt/SkillIcons/4k/CastLightningSpellOnHitSkill.png",
+  "category": "meta",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemThunderousLeap",
+  "name": "Thunderous Leap",
+  "icon": "Art/2DArt/SkillIcons/4k/ThunderousLeapSkillIcon.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "detonator",
+   "slam",
+   "travel"
+  ],
+  "tier": 9,
+  "mana": 11,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemThunderstorm",
+  "name": "Thunderstorm",
+  "icon": "Art/2DArt/SkillIcons/4k/LightningStormSkill.png",
+  "category": "spell",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "storm",
+   "sustained"
+  ],
+  "tier": 5,
+  "mana": 12,
+  "castTime": 0.9,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyTimeFreeze",
+  "name": "Time Freeze",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressTemporalistTimeStop.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.7,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemTimeOfNeed",
+  "name": "Time of Need",
+  "icon": "Art/2DArt/SkillIcons/4k/TimeOfNeedSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Mace",
+   "Primal"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 8,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyTimeSnap",
+  "name": "Time Snap",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressTemporalistReloadCooldown.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.6,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemTornado",
+  "name": "Tornado",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidTornado.png",
+  "category": "spell",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "storm",
+   "wind"
+  ],
+  "tier": 11,
+  "mana": 10,
+  "castTime": 0.75,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+  "name": "Tornado Shot",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerTornadoShotSkill.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable",
+   "wind"
+  ],
+  "tier": 11,
+  "mana": 13,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemToxicDomain",
+  "name": "Toxic Domain",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerToxicDomain.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [
+   "physical",
+   "chaos"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "duration",
+   "plant"
+  ],
+  "tier": 13,
+  "mana": 24,
+  "castTime": 1,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemToxicGrowth",
+  "name": "Toxic Growth",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerPoisonBloomSkill.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [
+   "chaos"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "plant",
+   "repeatable"
+  ],
+  "tier": 5,
+  "mana": 14,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemTrailOfCaltrops",
+  "name": "Trail of Caltrops",
+  "icon": "Art/2DArt/SkillIcons/4k/CaltropsOnDodgeSkillIcon.png",
+  "category": "spirit",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "duration",
+   "hazard",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 8,
+  "mana": 0,
+  "castTime": 0,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemTrinity",
+  "name": "Trinity",
+  "icon": "Art/2DArt/SkillIcons/4k/HuntressTrinitySkillIcon.png",
+  "category": "spirit",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Primal",
+   "Spear"
+  ],
+  "damage": [
+   "fire",
+   "cold",
+   "lightning"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 14,
+  "mana": 0,
+  "castTime": 0,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemTriskelionCascade",
+  "name": "Triskelion Cascade",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionTriskelionCascade.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.45,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemTwister",
+  "name": "Twister",
+  "icon": "Art/2DArt/SkillIcons/4k/TwisterSkillIcon.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable",
+   "wind"
+  ],
+  "tier": 1,
+  "mana": 4,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyUnboundAvatar",
+  "name": "Unbound Avatar",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkInvokerUnboundAvatar.png",
+  "category": "buff",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "fire",
+   "cold",
+   "lightning"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "conditional",
+   "duration"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemUnearth",
+  "name": "Unearth",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchUnearth.png",
+  "category": "minion",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 1,
+  "mana": 7,
+  "castTime": 0.95,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyUnleash",
+  "name": "Unleash",
+  "icon": "Art/2DArt/SkillIcons/4k/SorceressTemporalistUnleash.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.75,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAbyssalLivingBomb",
+  "name": "Untether",
+  "icon": "Art/2DArt/SkillIcons/4k/AbyssalLivingBomb.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.6,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemValakosCharge",
+  "name": "Valako's Charge",
+  "icon": "Art/2DArt/SkillIcons/4k/ValakosLuckLightningCoilSkill.png",
+  "category": "spell",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "chaining",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemVaultingImpact",
+  "name": "Vaulting Impact",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkVaultingImpact.png",
+  "category": "attack",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "duration",
+   "payoff",
+   "slam",
+   "travel"
+  ],
+  "tier": 5,
+  "mana": 12,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemVerisiumManifestation",
+  "name": "Verisium Manifestations",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionRunewordManifest.png",
+  "category": "minion",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemVineArrow",
+  "name": "Vine Arrow",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerPoisonVineArrowSkill.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [
+   "chaos"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "plant",
+   "repeatable"
+  ],
+  "tier": 3,
+  "mana": 7,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemAscendancyVirtuousBarrier",
+  "name": "Virtuous Barrier",
+  "icon": "Art/2DArt/SkillIcons/4k/GemBarrier.png",
+  "category": "buff",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyVividStampede",
+  "name": "Vivid Stampede",
+  "icon": "Art/2DArt/SkillIcons/4k/WildspeakerVividStagsSkill.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemAscendancyVoidIllusion",
+  "name": "Void Illusion",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkVoidIllusion.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Ascendancy"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 3
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemVolatileDead",
+  "name": "Volatile Dead",
+  "icon": "Art/2DArt/SkillIcons/4k/VolatileDeadWeaponSkill.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Wand"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.8,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemVolcanicFissure",
+  "name": "Volcanic Fissure",
+  "icon": "Art/2DArt/SkillIcons/4k/BruteVolcanicFissure.png",
+  "category": "attack",
+  "attributes": [
+   "str"
+  ],
+  "sources": [
+   "Mace"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "duration",
+   "slam",
+   "sustained"
+  ],
+  "tier": 7,
+  "mana": 6,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemVolcano",
+  "name": "Volcano",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidVolcano.png",
+  "category": "spell",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "channelling",
+   "duration",
+   "sustained"
+  ],
+  "tier": 1,
+  "mana": 7,
+  "castTime": 0.8,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemVoltaicBarrier",
+  "name": "Voltaic Barrier",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionCracklingBarrier.png",
+  "category": "attack",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "chaining",
+   "trigger"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemVoltaicGrenade",
+  "name": "Voltaic Grenade",
+  "icon": "Art/2DArt/SkillIcons/4k/ShockGrenade.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "grenade"
+  ],
+  "tier": 7,
+  "mana": 10,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemVoltaicMark",
+  "name": "Voltaic Mark",
+  "icon": "Art/2DArt/SkillIcons/4k/ShockingMarkSkill.png",
+  "category": "curse",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow"
+  ],
+  "damage": [
+   "lightning"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration"
+  ],
+  "tier": 7,
+  "mana": 18,
+  "castTime": 0.5,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemVulnerability",
+  "name": "Vulnerability",
+  "icon": "Art/2DArt/SkillIcons/4k/vulnerability.png",
+  "category": "curse",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 7,
+  "mana": 41,
+  "castTime": 0.7,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemWalkingCalamity",
+  "name": "Walking Calamity",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidWalkingCalamity.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [
+   "fire"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "bear",
+   "buff",
+   "conditional",
+   "duration",
+   "shapeshift",
+   "trigger"
+  ],
+  "tier": 13,
+  "mana": 24,
+  "castTime": 1,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemWarBanner",
+  "name": "War Banner",
+  "icon": "Art/2DArt/SkillIcons/4k/WarBannerSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "str",
+   "dex"
+  ],
+  "sources": [
+   "Crossbow"
+  ],
+  "damage": [],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "banner",
+   "buff",
+   "conditional",
+   "duration",
+   "persistent"
+  ],
+  "tier": 4,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemWardboundMinions",
+  "name": "Wardbound Minions",
+  "icon": "Art/2DArt/SkillIcons/4k/ExpeditionWardboundMinions.png",
+  "category": "minion",
+  "attributes": [],
+  "sources": [
+   "Runeforged"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "duration",
+   "repeatable"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.75,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemWaveOfFrost",
+  "name": "Wave of Frost",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkFreezingBackflip.png",
+  "category": "attack",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [
+   "cold"
+  ],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [],
+  "tier": 7,
+  "mana": 14,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemWhirlingAssault",
+  "name": "Whirling Assault",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkWhirlingAssault.png",
+  "category": "attack",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "strike"
+  ],
+  "tier": 11,
+  "mana": 18,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemWhirlingSlash",
+  "name": "Whirling Slash",
+  "icon": "Art/2DArt/SkillIcons/4k/HuntressWhirlingSlash.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "stages",
+   "strike",
+   "wind"
+  ],
+  "tier": 1,
+  "mana": 5,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemWhirlwindLance",
+  "name": "Whirlwind Lance",
+  "icon": "Art/2DArt/SkillIcons/4k/WindstormLanceSkillIcon.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [],
+  "delivery": [
+   "projectile",
+   "area"
+  ],
+  "mechanics": [
+   "duration",
+   "repeatable",
+   "wind"
+  ],
+  "tier": 11,
+  "mana": 6,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemWildProtector",
+  "name": "Wild Protector",
+  "icon": "Art/2DArt/SkillIcons/4k/WildspeakerBearSkill.png",
+  "category": "companion",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "persistent"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemAncientGifts",
+  "name": "Wildwood's Gifts",
+  "icon": "Art/2DArt/SkillIcons/4k/TheHollowMaskSkill.png",
+  "category": "buff",
+  "attributes": [],
+  "sources": [
+   "Other"
+  ],
+  "damage": [],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "remnant"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 1,
+  "version": 5
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemWindBlast",
+  "name": "Wind Blast",
+  "icon": "Art/2DArt/SkillIcons/4k/MonkGaleStrikeSwing.png",
+  "category": "attack",
+  "attributes": [
+   "dex",
+   "int"
+  ],
+  "sources": [
+   "Quarterstaff"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "wind"
+  ],
+  "tier": 3,
+  "mana": 9,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemWindDancer",
+  "name": "Wind Dancer",
+  "icon": "Art/2DArt/SkillIcons/4k/RangerWindDancerSkill.png",
+  "category": "spirit",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Bow",
+   "Spear"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "buff",
+   "persistent",
+   "stages",
+   "trigger"
+  ],
+  "tier": 4,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemWindSerpentsFury",
+  "name": "Wind Serpent's Fury",
+  "icon": "Art/2DArt/SkillIcons/4k/WindSerpentsFurySkillIcon.png",
+  "category": "attack",
+  "attributes": [
+   "dex"
+  ],
+  "sources": [
+   "Spear"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "conditional",
+   "sustained",
+   "wind"
+  ],
+  "tier": 13,
+  "mana": 10,
+  "castTime": 1,
+  "version": 2
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemWingBlast",
+  "name": "Wing Blast",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidWingBlast.png",
+  "category": "attack",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [],
+  "delivery": [
+   "area",
+   "melee"
+  ],
+  "mechanics": [
+   "shapeshift",
+   "wind",
+   "wyvern"
+  ],
+  "tier": 3,
+  "mana": 8,
+  "castTime": 0.5,
+  "version": 4
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemWither",
+  "name": "Wither",
+  "icon": "Art/2DArt/SkillIcons/4k/Wither.png",
+  "category": "spell",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Wand"
+  ],
+  "damage": [
+   "chaos"
+  ],
+  "delivery": [
+   "area"
+  ],
+  "mechanics": [
+   "channelling",
+   "duration"
+  ],
+  "tier": 0,
+  "mana": 0,
+  "castTime": 0.25,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gem/SkillGemWitheringPresence",
+  "name": "Withering Presence",
+  "icon": "Art/2DArt/SkillIcons/4k/WitchWitheringPresence.png",
+  "category": "spirit",
+  "attributes": [
+   "int"
+  ],
+  "sources": [
+   "Occult"
+  ],
+  "damage": [
+   "chaos"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "buff",
+   "duration",
+   "persistent"
+  ],
+  "tier": 4,
+  "mana": 0,
+  "castTime": 1,
+  "version": 1
+ },
+ {
+  "id": "Metadata/Items/Gems/SkillGemWolfPack",
+  "name": "Wolf Pack",
+  "icon": "Art/2DArt/SkillIcons/4k/DruidSummonWolf.png",
+  "category": "spirit",
+  "attributes": [
+   "str",
+   "int"
+  ],
+  "sources": [
+   "Primal"
+  ],
+  "damage": [
+   "physical"
+  ],
+  "delivery": [],
+  "mechanics": [
+   "persistent"
+  ],
+  "tier": 8,
+  "mana": 0,
+  "castTime": 1,
+  "version": 4
+ }
+]

@@ -1,26 +1,9 @@
-export type SkillItem = {
-  base_item?: {
-    display_name?: string;
-    id?: string;
-    release_state?: string;
-    [key: string]: unknown;
-  };
-  color?: string;
-  crafting_level?: number;
-  crafting_types?: unknown;
-  gem_type?: string;
-  grants_skills?: string[];
-  icon_dds_file?: string | null;
-  is_lineage?: boolean;
-  requirement_weights?: {
-    dexterity?: number;
-    intelligence?: number;
-    strength?: number;
-  };
-  [key: string]: unknown;
-};
+import type { Skill } from "@/lib/games/skill/types";
 
 export type ItemListProps = {
-  items: SkillItem[];
-  onSelect?: (item: SkillItem) => void;
+  id: string;
+  items: Skill[];
+  activeIndex: number;
+  onSelect: (skill: Skill) => void;
+  onHover: (index: number) => void;
 };

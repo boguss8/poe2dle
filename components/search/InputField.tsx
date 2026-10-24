@@ -1,114 +1,119 @@
 "use client";
 
-import Image from "next/image";
-import { useEffect, useMemo, useRef, useState } from "react";
-import skills from "../../data/skill_gems.json";
-import ItemList from "./ItemList";
-import type { SkillItem } from "./types";
-import * as gameLogic from "@/lib/gameLogic";
+import { useEffect, useId, useMemo, useRef, useState } from "react";
+import { SKILLS, searchSkills } from "@/lib/games/skill/pool";
+import type { Skill } from "@/lib/games/skill/types";
+import ItemList, { optionId } from "./ItemList";
 
-export default function InputField() {
-  const [showList, setShowList] = useState(false);
-  const [selectedItem, setSelectedItem] = useState<SkillItem | null>(null);
-  const [searchText, setSearchText] = useState("");
-  const containerRef = useRef<HTMLDivElement>(null);
+type InputFieldProps = {
+  guessedIds: ReadonlySet<string>;
+  onGuess: (skill: Skill) => void;
+};
 
-  const allItems = useMemo(
-    () => Object.values(skills as Record<string, SkillItem>),
-    [],
+export default function InputField({ guessedIds, onGuess }: InputFieldProps) {
+  const [query, setQuery] = useState("");
+  const [open, setOpen] = useState(false);
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [shaking, setShaking] = useState(false);
+  const inputRef = useRef<HTMLInputElement>(null);
+  const listId = useId();
+
+  const matches = useMemo(
+    () => searchSkills(query, SKILLS, guessedIds),
+    [query, guessedIds],
   );
+  const showList = open && query.trim() !== "";
 
-  const filteredItems = useMemo(() => {
-    const normalizedQuery = searchText.trim().toLowerCase();
-
-    if (!normalizedQuery) {
-      return allItems.slice(0, 10);
-    }
-
-    return allItems.filter((item) =>
-      item.base_item?.display_name?.toLowerCase().includes(normalizedQuery),
-    );
-  }, [allItems, searchText]);
-
+  // Desktop only: a focused input on touch screens pops the keyboard open.
   useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (
-        containerRef.current &&
-        !containerRef.current.contains(event.target as Node)
-      ) {
-        setShowList(false);
-      }
-    };
-
-    document.addEventListener("mousedown", handleClickOutside);
-
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
+    if (window.matchMedia("(pointer: fine)").matches) inputRef.current?.focus();
   }, []);
 
-  const handleSelectItem = (item: SkillItem) => {
-    setSelectedItem(item);
-    setSearchText(item.base_item?.display_name ?? "");
-    setShowList(false);
+  const submit = (skill: Skill | undefined) => {
+    if (!skill) {
+      setShaking(true);
+      return;
+    }
+    onGuess(skill);
+    setQuery("");
+    setOpen(false);
+    setActiveIndex(0);
+    inputRef.current?.focus();
   };
 
-  const handleInputChange = (value: string) => {
-    setSearchText(value);
-    setSelectedItem(null);
-    setShowList(true);
+  const onKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    switch (event.key) {
+      case "ArrowDown":
+        event.preventDefault();
+        setOpen(true);
+        setActiveIndex((index) => Math.min(index + 1, matches.length - 1));
+        break;
+      case "ArrowUp":
+        event.preventDefault();
+        setActiveIndex((index) => Math.max(index - 1, 0));
+        break;
+      case "Enter":
+        event.preventDefault();
+        submit(matches[activeIndex] ?? matches[0]);
+        break;
+      case "Escape":
+        setOpen(false);
+        break;
+    }
   };
-
-  const answer = useMemo(() => {
-    // Placeholder until the daily selector exists.
-    return allItems.find((item) => item.base_item?.display_name === "Ice Shot");
-  }, [allItems]);
 
   return (
-    <div className="flex gap-4">
-      <div ref={containerRef} className="w-full rounded-lg bg-gray-400 p-4">
-        <div className="flex items-center gap-4">
-          {selectedItem ? (
-            <Image
-              src={`/icons/poe2/${selectedItem?.icon_dds_file?.replace(/\.dds$/i, ".png")}`}
-              alt={selectedItem?.base_item?.display_name || "Skill icon"}
-              width={48}
-              height={48}
-              className="rounded border border-gray-600 bg-gray-800 object-cover"
-            />
-          ) : null}
-          <input
-            name="guess"
-            className=""
-            placeholder="Type a skill name..."
-            value={searchText || selectedItem?.base_item?.display_name || ""}
-            onChange={(event) => handleInputChange(event.target.value)}
-            onFocus={() => setShowList(true)}
-          />
-          <button
-            type="button"
-            className="bg-blue-500 text-white px-4 py-2 rounded align-center h-10 active:scale-95"
-            onClick={() => {
-              if (selectedItem && answer) {
-                console.log(
-                  "Selected item:",
-                  gameLogic.verifyGuess(selectedItem, answer),
-                );
-              } else {
-                console.log("No item selected.");
-              }
-            }}
-          >
-            Submit
-          </button>
-        </div>
-
-        {showList && (
-          <div className="mt-4">
-            <ItemList items={filteredItems} onSelect={handleSelectItem} />
-          </div>
-        )}
+    <div className="relative w-full">
+      <div
+        className={`flex gap-2 ${shaking ? "animate-shake" : ""}`}
+        onAnimationEnd={() => setShaking(false)}
+      >
+        <input
+          ref={inputRef}
+          type="text"
+          role="combobox"
+          aria-label="Guess a skill gem"
+          aria-expanded={showList}
+          aria-controls={listId}
+          aria-autocomplete="list"
+          aria-activedescendant={
+            showList && matches.length > 0
+              ? optionId(listId, activeIndex)
+              : undefined
+          }
+          autoComplete="off"
+          autoCorrect="off"
+          spellCheck={false}
+          placeholder="Type a skill name…"
+          value={query}
+          onChange={(event) => {
+            setQuery(event.target.value);
+            setActiveIndex(0);
+            setOpen(true);
+          }}
+          onFocus={() => setOpen(true)}
+          onBlur={() => setOpen(false)}
+          onKeyDown={onKeyDown}
+          className="field h-12 min-w-0 flex-1 text-lg"
+        />
+        <button
+          type="button"
+          onClick={() => submit(matches[activeIndex] ?? matches[0])}
+          className="btn h-12"
+        >
+          Guess
+        </button>
       </div>
+
+      {showList ? (
+        <ItemList
+          id={listId}
+          items={matches}
+          activeIndex={activeIndex}
+          onSelect={submit}
+          onHover={setActiveIndex}
+        />
+      ) : null}
     </div>
   );
 }

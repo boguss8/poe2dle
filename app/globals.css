@@ -1,26 +1,396 @@
 @import "tailwindcss";
 
+/*
+ * Site chrome follows the Teuteuf daily games (GeoGrid, Worldle): dark slate
+ * page, rounded cards, lavender accent, Oxygen type, icon buttons in a top bar.
+ * Everything that is *from the game* (skill names, item tooltips) is set in
+ * Fontin, the typeface Path of Exile itself uses.
+ */
+
+/* A font by Jos Buivenga (exljbris) -> www.exljbris.com */
+@font-face {
+  font-family: "Fontin";
+  src: url("/fonts/Fontin-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fontin";
+  src: url("/fonts/Fontin-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fontin";
+  src: url("/fonts/Fontin-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fontin SmallCaps";
+  src: url("/fonts/Fontin-SmallCaps.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: dark;
+  /* Path of Exile 2 palette: near-black stone, worn gold, parchment text. */
+  --background: #0e0d0c;
+  --bar: #070707;
+  --card: #181512;
+  --card-deep: #0b0a09;
+  --line: #3d3426;
+  --foreground: #d6c9ad;
+  --muted: #8f8269;
+  --heading: #ecdba6;
+  --accent: #c8a45c;
+  --accent-ink: #14100a;
+  --ok: #2d6a3a;
+  --mid: #9a6c1c;
+  --bad: #6f2323;
+  --gem: #3fd0c4;
+  --attr-str: #ee7b64;
+  --attr-dex: #72d77a;
+  --attr-int: #8d9cff;
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-bar: var(--bar);
+  --color-card: var(--card);
+  --color-deep: var(--card-deep);
+  --color-line: var(--line);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-heading: var(--heading);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-ink: var(--accent-ink);
+  --color-ok: var(--ok);
+  --color-mid: var(--mid);
+  --color-bad: var(--bad);
+  --color-gem: var(--gem);
+  --color-attr-str: var(--attr-str);
+  --color-attr-dex: var(--attr-dex);
+  --color-attr-int: var(--attr-int);
+  --font-sans: var(--font-ui);
+  --font-poe: "Fontin", Georgia, "Times New Roman", serif;
+  --font-poe-caps: "Fontin SmallCaps", "Fontin", Georgia, serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  background: var(--background);
 }
 
 body {
-  background: var(--background);
+  background:
+    radial-gradient(ellipse 70% 360px at 50% 0, #1d1a14 0%, transparent 100%),
+    var(--background);
+  background-repeat: no-repeat;
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-ui), Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+dialog::backdrop {
+  background: rgb(0 0 0 / 0.78);
+}
+
+@layer components {
+  /* ---------- chrome ---------- */
+  .topbar {
+    background: linear-gradient(#0d0c0a, var(--bar));
+    border-bottom: 1px solid #4a3d27;
+    box-shadow: 0 6px 18px rgb(0 0 0 / 0.55);
+  }
+
+  .icon-btn {
+    display: inline-flex;
+    height: 2.5rem;
+    width: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.65rem;
+    background: var(--card);
+    border: 1px solid #4a3d27;
+    color: #d8c28a;
+    cursor: pointer;
+    transition: background 0.12s, border-color 0.12s, transform 0.12s;
+  }
+  .icon-btn:hover {
+    background: #26211a;
+    border-color: var(--accent);
+    color: #f1deaa;
+  }
+  .icon-btn:active {
+    transform: scale(0.95);
+  }
+
+  .card {
+    background: linear-gradient(#1c1914, var(--card));
+    border: 1px solid #3d3426;
+    border-radius: 1rem;
+    box-shadow: inset 0 1px 0 rgb(255 235 190 / 0.05), 0 4px 16px rgb(0 0 0 / 0.4);
+  }
+  .card-deep {
+    background: var(--card-deep);
+    border: 1px solid #2a241a;
+    border-radius: 0.75rem;
+  }
+
+  .btn {
+    border-radius: 0.65rem;
+    padding: 0.6rem 1.25rem;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--accent-ink);
+    background: linear-gradient(#dbb872, var(--accent));
+    border: 1px solid #8b6e34;
+    box-shadow: inset 0 1px 0 rgb(255 245 210 / 0.45);
+    cursor: pointer;
+    transition: filter 0.12s, transform 0.12s;
+  }
+  .btn:hover {
+    filter: brightness(1.12);
+  }
+  .btn:active {
+    transform: scale(0.98);
+  }
+  .btn-ghost {
+    background: transparent;
+    color: var(--foreground);
+    border: 1px solid #5a4b31;
+    box-shadow: none;
+  }
+  .btn-ghost:hover {
+    background: rgb(200 164 92 / 0.1);
+    color: var(--heading);
+    filter: none;
+  }
+
+  .link {
+    color: var(--foreground);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    cursor: pointer;
+  }
+  .link:hover {
+    color: var(--accent);
+  }
+
+  .field {
+    padding: 0 1rem;
+    color: var(--heading);
+    background: var(--card-deep);
+    border: 1px solid #5a4b31;
+    border-radius: 0.75rem;
+    box-shadow: inset 0 2px 6px rgb(0 0 0 / 0.7);
+  }
+  .field::placeholder {
+    color: #6f6450;
+  }
+  .field:focus {
+    border-color: var(--accent);
+    box-shadow: inset 0 2px 6px rgb(0 0 0 / 0.7), 0 0 0 2px rgb(200 164 92 / 0.25);
+    outline: none;
+  }
+
+  .pill-track {
+    display: inline-flex;
+    padding: 0.25rem;
+    border-radius: 999px;
+    background: var(--card-deep);
+    border: 1px solid #4a3d27;
+  }
+  .pill {
+    padding: 0.3rem 1.1rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--muted);
+  }
+  .pill[aria-current="page"] {
+    background: linear-gradient(#dbb872, var(--accent));
+    color: var(--accent-ink);
+    box-shadow: inset 0 1px 0 rgb(255 245 210 / 0.45), 0 1px 3px rgb(0 0 0 / 0.5);
+  }
+  .pill-off {
+    opacity: 0.6;
+  }
+
+  /* ---------- game text: Fontin ---------- */
+  .poe {
+    font-family: var(--font-poe);
+  }
+  .poe-caps {
+    font-family: var(--font-poe-caps);
+    letter-spacing: 0.02em;
+  }
+
+  .slot {
+    background: #050505;
+    border: 1px solid #5b4a2a;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 0 1px #000, inset 0 0 6px #000;
+  }
+
+  /* ---------- guess tiles ---------- */
+  .tile {
+    position: relative;
+    border-radius: 0.65rem;
+    border: 1px solid;
+    color: #f7efd9;
+    text-shadow: 0 1px 1px rgb(0 0 0 / 0.6);
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.14), inset 0 -10px 16px rgb(0 0 0 / 0.28);
+  }
+  .tile-correct {
+    background: linear-gradient(#3a8449, var(--ok));
+    border-color: #55a566;
+  }
+  .tile-partial {
+    background: linear-gradient(#bf8a2d, var(--mid));
+    border-color: #d8a947;
+  }
+  .tile-wrong {
+    background: linear-gradient(#8a2f2f, var(--bad));
+    border-color: #a34848;
+  }
+  .tile-neutral {
+    background: linear-gradient(#17140f, var(--card-deep));
+    border-color: #4a3d27;
+    color: var(--foreground);
+  }
+
+  .chip {
+    padding: 0.05rem 0.4rem;
+    border-radius: 0.35rem;
+    font-size: 0.74rem;
+    font-weight: 700;
+    line-height: 1.4;
+    background: rgb(0 0 0 / 0.38);
+    border: 1px solid rgb(255 255 255 / 0.1);
+  }
+  .chip-hit {
+    color: var(--accent-ink);
+    text-shadow: none;
+    background: #f1e4bd;
+    border-color: #fff3cf;
+  }
+
+  /* ---------- PoE item tooltip ---------- */
+  .poe-tip {
+    width: 21rem;
+    max-width: calc(100vw - 1rem);
+    color: #c8c8c8;
+    background: #040405;
+    border: 1px solid #25746d;
+    box-shadow: 0 0 0 1px #000, 0 12px 32px rgb(0 0 0 / 0.65);
+    font-family: var(--font-poe);
+    font-size: 1.02rem;
+    line-height: 1.3;
+    text-align: center;
+  }
+  .poe-tip-head {
+    padding: 0.35rem 0.75rem;
+    text-align: left;
+    color: var(--gem);
+    background: linear-gradient(90deg, #0d3430, #07100f 70%);
+    border-bottom: 1px solid #25746d;
+    font-family: var(--font-poe-caps);
+    font-size: 1.15rem;
+    letter-spacing: 0.04em;
+  }
+  .poe-tip-sep {
+    height: 1px;
+    margin: 0.5rem auto;
+    width: 70%;
+    background: linear-gradient(90deg, transparent, #2f5f5b, transparent);
+  }
+  .poe-label {
+    font-family: var(--font-poe-caps);
+    color: #8fb2ad;
+  }
+  .poe-value {
+    color: #fff;
+  }
+  .poe-blue {
+    color: #8888ff;
+    font-family: var(--font-poe-caps);
+    letter-spacing: 0.02em;
+  }
+  .poe-desc {
+    color: #d2c6a4;
+  }
+  .poe-kw {
+    text-decoration: underline dotted;
+    text-underline-offset: 3px;
+  }
+}
+
+/* ---------- motion ---------- */
+@keyframes tile-flip {
+  0% {
+    opacity: 0;
+    transform: perspective(400px) rotateX(-90deg);
+  }
+  60% {
+    opacity: 1;
+    transform: perspective(400px) rotateX(10deg);
+  }
+  100% {
+    opacity: 1;
+    transform: perspective(400px) rotateX(0);
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+  20%,
+  60% {
+    transform: translateX(-5px);
+  }
+  40%,
+  80% {
+    transform: translateX(5px);
+  }
+}
+
+.animate-tile-flip {
+  animation: tile-flip 0.6s ease both;
+}
+
+.animate-fade-up {
+  animation: fade-up 0.45s ease both;
+}
+
+.animate-shake {
+  animation: shake 0.35s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-tile-flip,
+  .animate-fade-up,
+  .animate-shake {
+    animation: none;
+  }
 }

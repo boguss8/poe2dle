@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# large raw upstream data (re-create with `pnpm fetch-data`)
+/data/raw/
+
+# Fontin (exljbris) may not be redistributed; see README
+/public/fonts/

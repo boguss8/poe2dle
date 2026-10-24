@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 export const GGPK_BASE = "https://image.ggpk.exposed/poe2";
 
 /** Dev/placeholder/duplicate gems whose icons never reach the picker (mirrors src/gems/data.ts). */
-function isHiddenGem(id, displayName) {
+export function isHiddenGem(id, displayName) {
   if (displayName.startsWith("[DNT") || displayName.startsWith("Playtest "))
     return true;
   if (displayName === "Coming Soon") return true;
