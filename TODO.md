@@ -1,9 +1,18 @@
 ## Curernt
 
 - [ ] filtrowanie duplikatów
-- [ ] weryfikacja odpowiedzi
-- [ ] efekty wynikow
-- 
+- [x] weryfikacja odpowiedzi (`lib/gameLogic.ts` verifyGuess; logged to console only)
+- [ ] efekty wynikow (render verifyGuess result in the UI)
+- [ ] script to combine duplicates
+- [ ] replace hardcoded "Ice Shot" answer in InputField with the daily selector
+
+Fields compared in verifyGuess:
+
+- requirement_weights = req
+- crafting_level = min level
+- crafting_types = weapon
+- tags = tags
+- base_item.release_state = released (always "released" in current data; manual flag still open)
 
 ## Priorytet 1 — fundamenty
 

@@ -5,6 +5,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import skills from "../../data/skill_gems.json";
 import ItemList from "./ItemList";
 import type { SkillItem } from "./types";
+import * as gameLogic from "@/lib/gameLogic";
 
 export default function InputField() {
   const [showList, setShowList] = useState(false);
@@ -58,6 +59,11 @@ export default function InputField() {
     setShowList(true);
   };
 
+  const answer = useMemo(() => {
+    // Placeholder until the daily selector exists.
+    return allItems.find((item) => item.base_item?.display_name === "Ice Shot");
+  }, [allItems]);
+
   return (
     <div className="flex gap-4">
       <div ref={containerRef} className="w-full rounded-lg bg-gray-400 p-4">
@@ -83,8 +89,11 @@ export default function InputField() {
             type="button"
             className="bg-blue-500 text-white px-4 py-2 rounded align-center h-10 active:scale-95"
             onClick={() => {
-              if (selectedItem) {
-                console.log("Selected item:", selectedItem);
+              if (selectedItem && answer) {
+                console.log(
+                  "Selected item:",
+                  gameLogic.verifyGuess(selectedItem, answer),
+                );
               } else {
                 console.log("No item selected.");
               }

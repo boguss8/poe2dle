@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "download-icons": "node app/scripts/fetch-icons.mjs",
-    "json-duplicate-checker": "node app/scripts/json-duplicate-checker.mjs"
+    "json-duplicate-checker": "node app/scripts/json-duplicate-checker.mjs",
+    "fetch-data": "node app/scripts/fetch-data.mjs"
   },
   "dependencies": {
     "git": "^0.1.5",
