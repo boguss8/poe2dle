@@ -1,3 +1,6 @@
+"use client";
+
+import { useSyncExternalStore } from "react";
 import { LONG_LIFETIME_SECONDS, readCookie, writeCookie } from "./cookies";
 
 /**
@@ -100,4 +103,16 @@ export function createPersistedStore<T>({
   });
 
   return store;
+}
+
+/**
+ * Read a store from a component. `serverValue` is what the server render and
+ * hydration see; it defaults to the store's fallback, pass `() => null` to
+ * render nothing until the real value is known.
+ */
+export function usePersistedStore<T, S = T>(
+  store: PersistedStore<T>,
+  serverValue: () => S = store.getServerSnapshot as unknown as () => S,
+): T | S {
+  return useSyncExternalStore<T | S>(store.subscribe, store.getSnapshot, serverValue);
 }

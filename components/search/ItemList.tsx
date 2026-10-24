@@ -1,10 +1,18 @@
-import { prettyLabel } from "@/components/game/ResultsTable";
 import SkillIcon from "@/components/game/SkillIcon";
 import SkillTooltip from "@/components/tooltip/SkillTooltip";
-import type { ItemListProps } from "./types";
+import { prettyLabel } from "@/lib/format";
+import type { Skill } from "@/lib/games/skill/types";
 
 export const optionId = (listId: string, index: number) =>
   `${listId}-option-${index}`;
+
+type ItemListProps = {
+  id: string;
+  items: Skill[];
+  activeIndex: number;
+  onSelect: (skill: Skill) => void;
+  onHover: (index: number) => void;
+};
 
 export default function ItemList({
   id,

@@ -1,8 +1,12 @@
 "use client";
 
-import { useSyncExternalStore } from "react";
+import { COOKIES } from "./cookieCatalog";
 import { LONG_LIFETIME_SECONDS } from "./cookies";
-import { createPersistedStore, rewriteAllCookies } from "./persistedStore";
+import {
+  createPersistedStore,
+  rewriteAllCookies,
+  usePersistedStore,
+} from "./persistedStore";
 
 /**
  * "accepted": progress cookies last up to a year, so streaks survive.
@@ -13,7 +17,7 @@ export type ConsentState = "unset" | "accepted" | "declined";
 
 /** The choice itself is always remembered, otherwise we would ask on every visit. */
 const consentStore = createPersistedStore<ConsentState>({
-  name: "poe2dle_consent",
+  name: COOKIES.consent.name,
   fallback: "unset",
   parse: (raw) => (raw === "accepted" || raw === "declined" ? raw : null),
   serialize: (value) => value,
@@ -33,13 +37,12 @@ export function setConsent(choice: Exclude<ConsentState, "unset">): void {
 }
 
 /** Current choice; null while rendering on the server or hydrating. */
-export function useConsent(): ConsentState | null {
-  return useSyncExternalStore(
-    consentStore.subscribe,
-    consentStore.getSnapshot,
-    () => null,
-  );
-}
+export const useConsent = (): ConsentState | null =>
+  usePersistedStore(consentStore, () => null);
 
-/** Event the footer dispatches to open the cookie settings dialog. */
+/** Event that opens the cookie settings dialog (see `openCookieSettings`). */
 export const OPEN_COOKIE_SETTINGS_EVENT = "poe2dle:open-cookie-settings";
+
+export function openCookieSettings(): void {
+  window.dispatchEvent(new Event(OPEN_COOKIE_SETTINGS_EVENT));
+}

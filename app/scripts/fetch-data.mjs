@@ -1,14 +1,14 @@
 import { mkdirSync, writeFileSync } from "node:fs";
-import { dirname, join } from "node:path";
-import { fileURLToPath } from "node:url";
+import { join } from "node:path";
+import { DATA_DIR, isMain } from "./paths.mjs";
 
-export const REPOE_BASE = "https://repoe-fork.github.io/poe2";
+const REPOE_BASE = "https://repoe-fork.github.io/poe2";
 
 /**
  * Files to mirror: `dir` is relative to the project's data folder.
  * `skills.json` is ~27 MB, so it lives in the git-ignored `data/raw/`.
  */
-export const DATA_FILES = [
+const DATA_FILES = [
   { name: "skill_gems.json", dir: "." },
   { name: "skills.json", dir: "raw" },
 ];
@@ -24,10 +24,8 @@ export async function fetchData(destRoot, fetchImpl = fetch) {
   }
 }
 
-const thisFile = fileURLToPath(import.meta.url);
-if (process.argv[1] === thisFile) {
-  const projectRoot = dirname(dirname(dirname(thisFile)));
-  await fetchData(join(projectRoot, "data"));
+if (isMain(import.meta.url)) {
+  await fetchData(DATA_DIR);
   console.log(
     `Fetched ${DATA_FILES.map((f) => f.name).join(", ")} to data/ (skills.json in data/raw/)`,
   );

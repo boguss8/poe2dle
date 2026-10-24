@@ -1,7 +1,7 @@
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
-import { dirname, join } from "node:path";
-import { fileURLToPath } from "node:url";
+import { join } from "node:path";
 import { isHiddenGem } from "./fetch-icons.mjs";
+import { DATA_DIR, isMain } from "./paths.mjs";
 
 /*
  * Clue design (checked against the data):
@@ -93,10 +93,10 @@ export function categoryOf(raw, tags, types = new Set()) {
 const typesOf = (skill) => new Set(skill?.active_skill?.types ?? []);
 
 /** "0.3" -> 3 */
-export const minorOf = (version) => Number(String(version).split(".")[1]);
+const minorOf = (version) => Number(String(version).split(".")[1]);
 
 /** gem id -> sorted item classes whose base items grant that gem (Wand, Staff, ...). */
-export function grantedByItems(baseItems) {
+function grantedByItems(baseItems) {
   const granted = new Map();
   for (const item of Object.values(baseItems)) {
     for (const gemId of item?.skills_granted ?? []) {
@@ -112,7 +112,7 @@ export function grantedByItems(baseItems) {
  * Ascendancy, Runeforged, the weapon or spell group a gem is cut for, the
  * item class that grants it, else "Other" (the data does not say).
  */
-export function sourcesOf(id, raw, baseItem, grantedBy) {
+function sourcesOf(id, raw, baseItem, grantedBy) {
   if (/Ascendancy/i.test(id)) return ["Ascendancy"];
   if ((baseItem?.tags ?? []).includes("runeforged")) return ["Runeforged"];
   if ((raw.crafting_types ?? []).length > 0) return [...raw.crafting_types].sort();
@@ -308,7 +308,7 @@ export function displayTags(rawTags = []) {
     .map((tag) => TAG_LABELS[tag] ?? tag.charAt(0).toUpperCase() + tag.slice(1));
 }
 
-export function buildAllDetails(gemsJson, skillsJson, pool) {
+function buildAllDetails(gemsJson, skillsJson, pool) {
   const details = {};
   for (const entry of pool) {
     const raw = gemsJson[entry.id];
@@ -323,31 +323,25 @@ export function buildAllDetails(gemsJson, skillsJson, pool) {
   return details;
 }
 
-const thisFile = fileURLToPath(import.meta.url);
-if (process.argv[1] === thisFile) {
-  const projectRoot = dirname(dirname(dirname(thisFile)));
-  const dataDir = join(projectRoot, "data");
-  const read = (...parts) => JSON.parse(readFileSync(join(dataDir, ...parts), "utf8"));
-  const requireFile = (...parts) => {
-    if (!existsSync(join(dataDir, ...parts))) {
+if (isMain(import.meta.url)) {
+  const read = (...parts) => {
+    const path = join(DATA_DIR, ...parts);
+    if (!existsSync(path)) {
       throw new Error(
-        `data/${parts.join("/")} is missing. Run "pnpm fetch-data" (and "node app/scripts/build-skill-versions.mjs") first.`,
+        `data/${parts.join("/")} is missing. Run "pnpm fetch-data" and "pnpm build-skill-versions" first.`,
       );
     }
+    return JSON.parse(readFileSync(path, "utf8"));
   };
-  requireFile("skill_gems.json");
-  requireFile("base_items.json");
-  requireFile("raw", "skills.json");
-  requireFile("skill_versions.json");
 
   const gems = read("skill_gems.json");
   const baseItems = read("base_items.json");
   const skills = read("raw", "skills.json");
   const versions = read("skill_versions.json");
   const pool = buildSkillPool(gems, skills, versions, baseItems);
-  writeFileSync(join(dataDir, "skill_pool.json"), `${JSON.stringify(pool, null, 1)}\n`);
+  writeFileSync(join(DATA_DIR, "skill_pool.json"), `${JSON.stringify(pool, null, 1)}\n`);
   writeFileSync(
-    join(dataDir, "skill_details.json"),
+    join(DATA_DIR, "skill_details.json"),
     `${JSON.stringify(buildAllDetails(gems, skills, pool))}\n`,
   );
   console.log(`Wrote ${pool.length} skills to data/skill_pool.json and data/skill_details.json`);

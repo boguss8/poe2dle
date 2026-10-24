@@ -44,7 +44,6 @@
   --bar: #070707;
   --card: #181512;
   --card-deep: #0b0a09;
-  --line: #3d3426;
   --foreground: #d6c9ad;
   --muted: #8f8269;
   --heading: #ecdba6;
@@ -61,18 +60,11 @@
 
 @theme inline {
   --color-background: var(--background);
-  --color-bar: var(--bar);
-  --color-card: var(--card);
   --color-deep: var(--card-deep);
-  --color-line: var(--line);
   --color-foreground: var(--foreground);
   --color-heading: var(--heading);
   --color-muted: var(--muted);
   --color-accent: var(--accent);
-  --color-ink: var(--accent-ink);
-  --color-ok: var(--ok);
-  --color-mid: var(--mid);
-  --color-bad: var(--bad);
   --color-gem: var(--gem);
   --color-attr-str: var(--attr-str);
   --color-attr-dex: var(--attr-dex);
@@ -229,9 +221,6 @@ dialog::backdrop {
   }
 
   /* ---------- game text: Fontin ---------- */
-  .poe {
-    font-family: var(--font-poe);
-  }
   .poe-caps {
     font-family: var(--font-poe-caps);
     letter-spacing: 0.02em;

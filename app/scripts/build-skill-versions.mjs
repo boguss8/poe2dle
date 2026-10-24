@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from "node:fs";
-import { dirname, join } from "node:path";
-import { fileURLToPath } from "node:url";
+import { join } from "node:path";
+import { DATA_DIR, isMain } from "./paths.mjs";
 
 /*
  * RePoE has no "added in version" field, but its data repo keeps a git
@@ -111,12 +111,8 @@ async function lastExportPerMinor() {
   return latest;
 }
 
-const thisFile = fileURLToPath(import.meta.url);
-if (process.argv[1] === thisFile) {
-  const projectRoot = dirname(dirname(dirname(thisFile)));
-  const current = JSON.parse(
-    readFileSync(join(projectRoot, "data", "skill_gems.json"), "utf8"),
-  );
+if (isMain(import.meta.url)) {
+  const current = JSON.parse(readFileSync(join(DATA_DIR, "skill_gems.json"), "utf8"));
   const exports = await lastExportPerMinor();
   // The newest export is the release the local data file comes from.
   const currentMinor = [...exports.keys()].sort(compareMinor).at(-1);
@@ -134,7 +130,7 @@ if (process.argv[1] === thisFile) {
   const versions = firstReleasedMinor(snapshots, current, currentMinor);
   const sorted = Object.fromEntries([...versions].sort(([a], [b]) => a.localeCompare(b)));
   writeFileSync(
-    join(projectRoot, "data", "skill_versions.json"),
+    join(DATA_DIR, "skill_versions.json"),
     `${JSON.stringify(sorted, null, 1)}\n`,
   );
   const counts = {};

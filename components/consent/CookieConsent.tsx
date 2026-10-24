@@ -8,25 +8,7 @@ import {
   setConsent,
   useConsent,
 } from "@/lib/consent";
-
-const COOKIES = [
-  {
-    name: "poe2dle_consent",
-    purpose: "Remembers your cookie choice.",
-  },
-  {
-    name: "poe2dle_skill_game",
-    purpose: "Today's guesses, so a reload doesn't lose your game.",
-  },
-  {
-    name: "poe2dle_skill_stats",
-    purpose: "Games played, wins and your streak.",
-  },
-  {
-    name: "poe2dle_help_seen",
-    purpose: "Whether you have already seen the how-to-play dialog.",
-  },
-];
+import { COOKIES } from "@/lib/cookieCatalog";
 
 /** Cookie notice shown on the first visit, plus the settings dialog behind the footer link. */
 export default function CookieConsent() {
@@ -87,7 +69,7 @@ export default function CookieConsent() {
             third-party cookies.
           </p>
           <ul className="space-y-2">
-            {COOKIES.map((cookie) => (
+            {Object.values(COOKIES).map((cookie) => (
               <li key={cookie.name} className="card-deep px-3 py-2">
                 <code className="text-sm font-bold">{cookie.name}</code>
                 <p className="text-sm text-muted">{cookie.purpose}</p>

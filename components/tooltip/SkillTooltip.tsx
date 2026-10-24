@@ -1,9 +1,10 @@
 "use client";
 
-import { useEffect, useId, useRef, useState, type ReactNode } from "react";
+import { useCallback, useId, useRef, useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import { ensureDetailsLoaded, useSkillDetails } from "@/lib/games/skill/details";
 import type { Skill } from "@/lib/games/skill/types";
+import { useOutsidePress } from "@/lib/useOutsidePress";
 import SkillTooltipCard from "./SkillTooltipCard";
 
 const GAP = 10;
@@ -79,15 +80,9 @@ export default function SkillTooltip({
     setOpen(true);
   };
 
-  // A tap outside closes a tooltip that was opened by touch.
-  useEffect(() => {
-    if (!open) return;
-    const close = (event: PointerEvent) => {
-      if (!triggerRef.current?.contains(event.target as Node)) setOpen(false);
-    };
-    document.addEventListener("pointerdown", close);
-    return () => document.removeEventListener("pointerdown", close);
-  }, [open]);
+  // A tap outside closes a tooltip that was opened by touch (Escape is handled on the trigger).
+  const hide = useCallback(() => setOpen(false), []);
+  useOutsidePress(triggerRef, open, hide, false);
 
   return (
     <div
@@ -102,18 +97,15 @@ export default function SkillTooltip({
         if (event.pointerType !== "touch") show();
       }}
       onPointerLeave={(event) => {
-        if (event.pointerType !== "touch") setOpen(false);
+        if (event.pointerType !== "touch") hide();
       }}
       onFocus={show}
-      onBlur={() => setOpen(false)}
+      onBlur={hide}
       onClick={() => {
-        if (lastPointer.current === "touch") {
-          if (open) setOpen(false);
-          else show();
-        }
+        if (lastPointer.current === "touch") (open ? hide : show)();
       }}
       onKeyDown={(event) => {
-        if (event.key === "Escape") setOpen(false);
+        if (event.key === "Escape") hide();
       }}
     >
       {children}

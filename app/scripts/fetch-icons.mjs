@@ -1,6 +1,6 @@
 import { mkdirSync, writeFileSync, existsSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
-import { fileURLToPath } from "node:url";
+import { DATA_DIR, isMain, PROJECT_ROOT } from "./paths.mjs";
 
 export const GGPK_BASE = "https://image.ggpk.exposed/poe2";
 
@@ -71,12 +71,10 @@ export async function fetchIcons(
   return { downloaded, skipped, failed };
 }
 
-const thisFile = fileURLToPath(import.meta.url);
-if (process.argv[1] === thisFile) {
-  const projectRoot = dirname(dirname(dirname(thisFile)));
-  const gemsPath = join(projectRoot, "data", "skill_gems.json");
+if (isMain(import.meta.url)) {
+  const gemsPath = join(DATA_DIR, "skill_gems.json");
   const paths = collectIconPaths(JSON.parse(readFileSync(gemsPath, "utf8")));
-  const destRoot = join(projectRoot, "public", "icons", "poe2");
+  const destRoot = join(PROJECT_ROOT, "public", "icons", "poe2");
   console.log(`Fetching ${paths.length} gem icons -> public/icons/poe2/ ...`);
   const { downloaded, skipped, failed } = await fetchIcons(destRoot, paths);
   console.log(

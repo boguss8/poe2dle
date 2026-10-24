@@ -1,14 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import SkillTooltipCard from "@/components/tooltip/SkillTooltipCard";
-import SkillIcon from "./SkillIcon";
-import { ensureDetailsLoaded, useSkillDetails } from "@/lib/games/skill/details";
 import { msUntilNextDay } from "@/lib/games/skill/daily";
+import { ensureDetailsLoaded, useSkillDetails } from "@/lib/games/skill/details";
 import { shareText } from "@/lib/games/skill/share";
 import type { GameStatus, GuessResult, Skill } from "@/lib/games/skill/types";
 import { useSeconds } from "@/lib/useClock";
-import { useEffect } from "react";
+import SkillIcon from "./SkillIcon";
 
 function Countdown() {
   const seconds = useSeconds();

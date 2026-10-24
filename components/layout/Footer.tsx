@@ -1,6 +1,5 @@
 import CookieSettingsButton from "@/components/consent/CookieSettingsButton";
-
-const REPO_URL = "https://github.com/boguss8/poe2dle";
+import { ISSUES_URL, REPO_URL } from "@/lib/site";
 
 export default function Footer() {
   return (
@@ -13,7 +12,7 @@ export default function Footer() {
           Source code on GitHub
         </a>
         <span aria-hidden="true">-</span>
-        <a href={`${REPO_URL}/issues`} className="link" target="_blank" rel="noreferrer">
+        <a href={ISSUES_URL} className="link" target="_blank" rel="noreferrer">
           Report a problem
         </a>
         <span aria-hidden="true">-</span>

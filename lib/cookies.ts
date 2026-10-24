@@ -30,7 +30,3 @@ export function writeCookie(
   if (window.location.protocol === "https:") attributes.push("Secure");
   document.cookie = `${name}=${value}; ${attributes.join("; ")}`;
 }
-
-export function deleteCookie(name: string): void {
-  writeCookie(name, "", 0);
-}

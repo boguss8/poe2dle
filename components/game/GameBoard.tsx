@@ -9,6 +9,7 @@ import InputField from "@/components/search/InputField";
 import { useHelpSeen, useSkillGame } from "@/lib/games/skill/useSkillGame";
 import Confetti from "./Confetti";
 import EndPanel from "./EndPanel";
+import GiveUpControl from "./GiveUpControl";
 import HintBar from "./HintBar";
 import ResultsTable, { ROW_REVEAL_MS } from "./ResultsTable";
 
@@ -19,7 +20,6 @@ export default function GameBoard() {
   const [helpRequested, setHelpRequested] = useState(false);
   const [statsOpen, setStatsOpen] = useState(false);
   const [freshId, setFreshId] = useState<string | null>(null);
-  const [confirmingGiveUp, setConfirmingGiveUp] = useState(false);
 
   const header = (
     <Header
@@ -80,28 +80,7 @@ export default function GameBoard() {
                 icon={game.hints.icon}
                 onReveal={game.revealHint}
               />
-              {confirmingGiveUp ? (
-                <span className="flex flex-wrap items-center justify-end gap-x-3 text-muted">
-                  Reveal the answer and end today&apos;s game?
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setConfirmingGiveUp(false);
-                      game.giveUp();
-                    }}
-                    className="link font-bold !text-attr-str"
-                  >
-                    Yes, give up
-                  </button>
-                  <button type="button" onClick={() => setConfirmingGiveUp(false)} className="link">
-                    Keep playing
-                  </button>
-                </span>
-              ) : (
-                <button type="button" onClick={() => setConfirmingGiveUp(true)} className="link text-muted">
-                  Stuck? Give up
-                </button>
-              )}
+              <GiveUpControl onConfirm={game.giveUp} />
             </div>
           </section>
         ) : answer ? (

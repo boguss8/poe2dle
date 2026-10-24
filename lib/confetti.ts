@@ -28,7 +28,7 @@ export const CONFETTI_COLORS = [
 
 export const CONFETTI_SECONDS = 3.6;
 /** The last stretch of the animation over which pieces fade out. */
-export const FADE_SECONDS = 0.7;
+const FADE_SECONDS = 0.7;
 
 const GRAVITY = 1500;
 const DRAG = 0.9;

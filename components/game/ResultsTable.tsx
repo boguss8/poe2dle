@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import SkillTooltip from "@/components/tooltip/SkillTooltip";
+import { prettyLabel } from "@/lib/format";
 import type {
   Attribute,
   GuessResult,
@@ -7,6 +8,7 @@ import type {
   NumberCell,
 } from "@/lib/games/skill/types";
 import SkillIcon from "./SkillIcon";
+import { STATUS } from "./status";
 
 const COLUMNS = [
   "Skill",
@@ -21,12 +23,6 @@ const COLUMNS = [
   "Version",
   "Mechanics",
 ];
-
-const STATUS: Record<MatchStatus, { tile: string; glyph: string; label: string }> = {
-  correct: { tile: "tile-correct", glyph: "✓", label: "Correct" },
-  partial: { tile: "tile-partial", glyph: "◐", label: "Partially correct" },
-  wrong: { tile: "tile-wrong", glyph: "✕", label: "Incorrect" },
-};
 
 const ATTRIBUTE_COLOR: Record<Attribute, string> = {
   str: "text-attr-str",
@@ -46,9 +42,6 @@ const CELL_REVEAL_MS = 260;
 
 /** Time until the last tile of a freshly revealed row has flipped in. */
 export const ROW_REVEAL_MS = COLUMNS.length * CELL_REVEAL_MS + 600;
-
-export const prettyLabel = (value: string) =>
-  value.charAt(0).toUpperCase() + value.slice(1).replaceAll("_", " ");
 
 const seconds = (value: number) => `${Number(value.toFixed(2))}s`;
 

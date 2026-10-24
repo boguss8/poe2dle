@@ -1,21 +1,19 @@
 "use client";
 
-import { useCallback, useMemo, useSyncExternalStore } from "react";
-import { persistsProgress } from "@/lib/consent";
-import { createPersistedStore } from "@/lib/persistedStore";
+import { useCallback, useMemo } from "react";
+import { usePersistedStore } from "@/lib/persistedStore";
 import { useToday } from "@/lib/useClock";
 import { compareSkills } from "./compare";
-import { decodeGame, decodeStats, encodeGame, encodeStats, skillKey } from "./codec";
 import { answerForDay, puzzleNumber } from "./daily";
 import { SKILLS, SKILL_BY_ID } from "./pool";
 import {
   applyGiveUp,
   applyGuess,
   applyHint,
-  EMPTY_STATS,
   freshGame,
   visibleStreak,
 } from "./progress";
+import { gameStore, helpStore, statsStore } from "./stores";
 import type {
   GameStatus,
   GuessResult,
@@ -24,43 +22,9 @@ import type {
   Stats,
 } from "./types";
 
-const ID_BY_KEY: ReadonlyMap<string, string> = new Map(
-  SKILLS.map((skill) => [skillKey(skill.id), skill.id]),
-);
-
-// Daily progress lives in first-party cookies. The lifetime depends on the
-// player's cookie choice (see lib/consent.ts).
-const gameStore = createPersistedStore<SavedGame | null>({
-  name: "poe2dle_skill_game",
-  fallback: null,
-  parse: (raw) => decodeGame(raw, ID_BY_KEY),
-  serialize: (game) => (game ? encodeGame(game) : ""),
-  persist: persistsProgress,
-});
-
-const statsStore = createPersistedStore<Stats>({
-  name: "poe2dle_skill_stats",
-  fallback: EMPTY_STATS,
-  parse: decodeStats,
-  serialize: encodeStats,
-  persist: persistsProgress,
-});
-
-const helpStore = createPersistedStore<boolean>({
-  name: "poe2dle_help_seen",
-  fallback: false,
-  parse: (raw) => (raw === "1" ? true : null),
-  serialize: (seen) => (seen ? "1" : "0"),
-  persist: persistsProgress,
-});
-
 /** Whether the player has already seen the how-to-play dialog. */
 export function useHelpSeen(): [seen: boolean, markSeen: () => void] {
-  const seen = useSyncExternalStore(
-    helpStore.subscribe,
-    helpStore.getSnapshot,
-    helpStore.getServerSnapshot,
-  );
+  const seen = usePersistedStore(helpStore);
   return [seen, useCallback(() => helpStore.set(true), [])];
 }
 
@@ -88,16 +52,8 @@ export type SkillGame = {
 /** Today's skill game, or null until the client knows the date. */
 export function useSkillGame(): SkillGame | null {
   const today = useToday();
-  const saved = useSyncExternalStore(
-    gameStore.subscribe,
-    gameStore.getSnapshot,
-    gameStore.getServerSnapshot,
-  );
-  const stats = useSyncExternalStore(
-    statsStore.subscribe,
-    statsStore.getSnapshot,
-    statsStore.getServerSnapshot,
-  );
+  const saved = usePersistedStore(gameStore);
+  const stats = usePersistedStore(statsStore);
 
   const answer = useMemo(
     () => (today === null ? null : answerForDay(today, SKILLS)),

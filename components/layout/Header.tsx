@@ -1,11 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useRef, useState } from "react";
+import Icon from "@/components/ui/Icon";
+import { openCookieSettings } from "@/lib/consent";
 import { GAMES } from "@/lib/games/registry";
-import { OPEN_COOKIE_SETTINGS_EVENT } from "@/lib/consent";
-
-const REPO_URL = "https://github.com/boguss8/poe2dle";
+import { ISSUES_URL, REPO_URL } from "@/lib/site";
+import { useOutsidePress } from "@/lib/useOutsidePress";
 
 type HeaderProps = {
   activeGameId: string;
@@ -13,41 +14,11 @@ type HeaderProps = {
   onStats: () => void;
 };
 
-function Icon({ children }: { children: React.ReactNode }) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      className="h-5 w-5"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2.2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-    >
-      {children}
-    </svg>
-  );
-}
-
 function Menu() {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    if (!open) return;
-    const close = (event: Event) => {
-      if (event instanceof KeyboardEvent && event.key !== "Escape") return;
-      if (event instanceof PointerEvent && ref.current?.contains(event.target as Node)) return;
-      setOpen(false);
-    };
-    document.addEventListener("pointerdown", close);
-    document.addEventListener("keydown", close);
-    return () => {
-      document.removeEventListener("pointerdown", close);
-      document.removeEventListener("keydown", close);
-    };
-  }, [open]);
+  const close = useCallback(() => setOpen(false), []);
+  useOutsidePress(ref, open, close);
 
   const item = "block w-full rounded-lg px-3 py-2 text-left hover:bg-white/10";
 
@@ -75,8 +46,8 @@ function Menu() {
             role="menuitem"
             className={item}
             onClick={() => {
-              setOpen(false);
-              window.dispatchEvent(new Event(OPEN_COOKIE_SETTINGS_EVENT));
+              close();
+              openCookieSettings();
             }}
           >
             Cookie settings
@@ -84,13 +55,7 @@ function Menu() {
           <a role="menuitem" className={item} href={REPO_URL} target="_blank" rel="noreferrer">
             Source on GitHub
           </a>
-          <a
-            role="menuitem"
-            className={item}
-            href={`${REPO_URL}/issues`}
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a role="menuitem" className={item} href={ISSUES_URL} target="_blank" rel="noreferrer">
             Report a problem
           </a>
         </div>
